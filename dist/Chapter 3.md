@@ -87,3 +87,37 @@ for understanding
 ![[Pasted image 20250920202426.png]]
 ![[Pasted image 20250920202547.png]]
 
+# Code Migration
+
+**Code migration** is the process of transferring a program (or part of it) from one computer in a distributed system to another, so that it can continue execution there.
+
+Instead of only moving data between machines, the _code itself_ moves — sometimes even while it is running. This allows distributed systems to:
+- **Balance workload** (send tasks to less busy machines).
+- **Move computation closer to data** (reduce data transfer).
+- **Improve flexibility** (adapt execution to different environments).
+
+#### Reasons for Code Migration
+
+![[Pasted image 20250921030538.png]]
+![[Pasted image 20250921030719.png|400]]
+
+### Methods for Code Migration
+
+![[Pasted image 20250921030905.png]]
+![[Pasted image 20250921031147.png]]
+![[Pasted image 20250921031201.png]]
+
+### Migration and Local Resources
+
+![[Pasted image 20250921031803.png]]
+
+![[Pasted image 20250921031959.png]]
+
+![[Pasted image 20250921032055.png]]
+![[Pasted image 20250921032019.png]]
+
+### Migration in Heterogeneous Systems
+
+![[Pasted image 20250921033305.png]]
+
+![[Pasted image 20250921033652.png]]

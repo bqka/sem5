@@ -144,17 +144,15 @@ can overload part of network
 Decentralized algo characteristics
 ![[Pasted image 20250919203754.png|500]]
 
-**Scalability dimensions**
-**Size scalability:** A system can be scalable with respect to its size, meaning that we can easily add more users and resources to the system without any noticeable loss of performance.
+### Scalability dimensions
 
-**Geographical scalability:** A geographically scalable system is one in which the users and resources may lie far apart, but the fact that communication delays may be significant is hardly noticed.
+- **Size scalability:** A system can be scalable with respect to its size, meaning that we can easily add more users and resources to the system without any noticeable loss of performance.
+
+- **Geographical scalability:** A geographically scalable system is one in which the users and resources may lie far apart, but the fact that communication delays may be significant is hardly noticed.
 ![[Pasted image 20250919204220.png]]
 
-**Administrative scalability:** An administratively scalable system is one that can still be easily managed even if it spans many independent administrative organizations.
-If a distributed system expands to another domain, two types of security measures need to be taken.
-First, the distributed system has to protect itself against malicious attacks from the new domain.
-Second, the new domain has to protect itself against malicious attacks from
-the distributed system
+- **Administrative scalability:** An administratively scalable system is one that can still be easily managed even if it spans many independent administrative organizations. If a distributed system expands to another domain, two types of security measures need to be taken. First, the distributed system has to protect itself against malicious attacks from the new domain. Second, the new domain has to protect itself against malicious attacks from the distributed system
+
 ![[Pasted image 20250919020404.png]]
 
 **Scaling Techniques**

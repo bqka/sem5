@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/Cardinal and Ordinal Utility.md",
+                "file": "eco/2. Cardinal and Ordinal Utility.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cardinal and Ordinal Utility"
+              "title": "2. Cardinal and Ordinal Utility"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/Intro to Microeconomics.md",
+                "file": "eco/1. Intro to Microeconomics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to Microeconomics"
+              "title": "1. Intro to Microeconomics"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/Demand.md",
+                "file": "eco/3. Demand.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Demand"
+              "title": "3. Demand"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/Production.md",
+                "file": "eco/4. Production.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Production"
+              "title": "4. Production"
             }
           },
           {
@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/Market.md",
+                "file": "eco/5. Market.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Market"
+              "title": "5. Market"
             }
           },
           {
@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/Tools of Monetary Policy.md",
+                "file": "eco/6. Tools of Monetary Policy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools of Monetary Policy"
+              "title": "6. Tools of Monetary Policy"
             }
           },
           {
@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/Tools of Monetary Policy.md",
+                "file": "dist/Chapter 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools of Monetary Policy"
+              "title": "Chapter 3"
             }
           }
         ],
@@ -191,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 275.5
   },
   "right": {
     "id": "313df69791a4210a",
@@ -207,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "eco/Tools of Monetary Policy.md",
+                "file": "dist/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tools of Monetary Policy"
+              "title": "Backlinks for Chapter 3"
             }
           },
           {
@@ -226,12 +226,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "eco/Tools of Monetary Policy.md",
+                "file": "dist/Chapter 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Tools of Monetary Policy"
+              "title": "Outgoing links from Chapter 3"
             }
           },
           {
@@ -255,13 +255,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eco/Tools of Monetary Policy.md",
+                "file": "dist/Chapter 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tools of Monetary Policy"
+              "title": "Outline of Chapter 3"
             }
           }
         ]
@@ -281,32 +281,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38b43c113a196bbf",
+  "active": "6277bbcd1770bed7",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250921033652.png",
+    "attachments/Pasted image 20250921033548.png",
+    "attachments/Pasted image 20250921033305.png",
+    "attachments/Pasted image 20250921032055.png",
+    "attachments/Pasted image 20250921032019.png",
+    "attachments/Pasted image 20250921032016.png",
+    "attachments/Pasted image 20250921031959.png",
+    "attachments/Pasted image 20250921031803.png",
+    "attachments/Pasted image 20250921031201.png",
+    "attachments/Pasted image 20250921031147.png",
+    "attachments/Pasted image 20250921030905.png",
+    "eco/4. Production.md",
+    "eco/3. Demand.md",
+    "eco/5. Market.md",
+    "eco/6. Tools of Monetary Policy.md",
+    "dist/Chapter 1.md",
+    "eco/Exchange rate q.md",
+    "eco/2. Cardinal and Ordinal Utility.md",
+    "eco/1. Intro to Microeconomics.md",
+    "eco/Balance of Payment.md",
     "eco/Commercial Banks and Central Bank.pdf",
     "eco/Money Definition Functions and Supply of Money.pdf",
-    "eco/Exchange rate q.md",
-    "eco/Balance of Payment.md",
-    "eco/Tools of Monetary Policy.md",
-    "eco/Market.md",
     "eco/Supply.md",
-    "eco/Production.md",
-    "eco/Demand.md",
-    "eco/Intro to Microeconomics.md",
-    "eco/Cardinal and Ordinal Utility.md",
     "eco",
     "dist/Chapter 3.md",
-    "attachments/Pasted image 20250920202547.png",
-    "attachments/Pasted image 20250920202426.png",
-    "attachments/Pasted image 20250920202102.png",
-    "attachments/Pasted image 20250920201505.png",
-    "attachments/Pasted image 20250920201453.png",
-    "attachments/Pasted image 20250920200850.png",
-    "attachments/Pasted image 20250920200553.png",
-    "attachments/Pasted image 20250920200508.png",
-    "attachments/Pasted image 20250920194814.png",
-    "attachments/Pasted image 20250920194706.png",
-    "dist/Chapter 1.md",
     "dist/Chapter 2.md",
     "malware/midsem.pdf",
     "malware",
