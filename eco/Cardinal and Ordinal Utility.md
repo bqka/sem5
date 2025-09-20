@@ -1,0 +1,129 @@
+## Cardinal Utility Analysis
+
+### Core Concepts
+
+* **Utility**: Utility is the power or capacity of a commodity to satisfy a human want. Utility can be measured in 'Utils'.
+* **Marginal Utility (MU)**: MU is the additional or extra utility derived from the consumption of an additional unit of a commodity.
+    * It can be expressed as: $MU_n = TU_n - TU_{n-1}$.
+    * Or as the rate of change: $MU = \frac{\Delta TU}{\Delta Q}$, where $\Delta TU$ is the change in Total Utility and $\Delta Q$ is the change in quantity consumed.
+* **Total Utility (TU)**: It is the total psychological satisfaction a consumer derives from consuming a given amount of a particular commodity. It is the sum of all marginal utilities.
+
+### Relationship between Total Utility (TU) and Marginal Utility (MU)
+
+The relationship can be illustrated with the following table:
+
+| Units Consumed | Total Utility (TU) | Marginal Utility (MU) |
+| :------------- | :----------------- | :-------------------- |
+| 1              | 10                 | 10                    |
+| 2              | 18                 | 8                     |
+| 3              | 23                 | 5                     |
+| 4              | 25                 | 2                     |
+| 5              | 26                 | 1                     |
+| 6              | 26                 | 0                     |
+| 7              | 23                 | -3                    |
+
+**Key Relationships:**
+1.  TU increases as long as MU is positive.
+2.  TU is maximum when MU is zero.
+3.  TU starts declining when MU becomes negative.
+
+### Law of Diminishing Marginal Utility
+
+The law states that as more and more units of a commodity are consumed, the marginal utility derived from each successive unit goes on falling. For example, the utility from the first chapati for a hungry person is maximum, lesser from the second, and still lesser from the third, and so on.
+
+**Assumptions of the Law:**
+* All units of consumption are homogeneous and of a standard size.
+* Consumption is continuous, with no time interval between the consumption of units.
+
+### Consumer's Equilibrium (Cardinal Approach)
+
+Consumer's Equilibrium refers to a situation where a consumer spends their given income on a commodity or combination of goods in a way that provides maximum satisfaction or utility. This can be discussed in two situations: when one commodity is consumed, and when two or more are consumed.
+
+#### Case 1: One Commodity
+
+A consumer is in equilibrium when the marginal utility of a commodity (measured in monetary units) is equal to the price of that commodity.
+
+**Example:** Assume 1 Rupee = 4 Utils. Price of ice cream is ₹20 per unit.
+
+| Units of Ice Cream | MU (Utils) | MU in Money (₹) | Price (₹) |
+| :----------------- | :--------- | :-------------- | :-------- |
+| 1                  | 120        | 30              | 20        |
+| 2                  | 100        | 25              | 20        |
+| 3                  | 80         | 20              | 20        |
+| 4                  | 60         | 15              | 20        |
+| 5                  | 40         | 10              | 20        |
+| 6                  | 20         | 5               | 20        |
+
+The consumer will be in equilibrium when consuming 3 units of ice cream because at this level, the marginal utility in monetary units (₹20) is equal to the price (₹20).
+
+#### Case 2: Two Commodities
+
+Two necessary conditions must be met for consumer equilibrium:
+1.  The ratio of marginal utility to price is the same for both goods, also known as the Law of Equi-Marginal Utility. The formula is: $\frac{MU_x}{P_x} = \frac{MU_y}{P_y}$.
+2.  MU falls as consumption increases.
+
+**What happens in a state of disequilibrium?**
+* If $\frac{MU_x}{P_x} > \frac{MU_y}{P_y}$, the consumer gets more marginal utility per rupee from good X. They will buy more of X and less of Y. This causes $MU_x$ to fall until the ratio becomes equal.
+* If $\frac{MU_x}{P_x} < \frac{MU_y}{P_y}$, the consumer gets more marginal utility per rupee from good Y. They will buy more of Y and less of X. This causes $MU_y$ to fall until the ratio becomes equal.
+
+---
+
+## Ordinal Utility Analysis (Indifference Curve Approach)
+
+* **Cardinal Utility**: An approach, given by Alfred Marshal, where utility is measured in cardinal numbers like 1, 2, 3, etc..
+* **Ordinal Utility**: An approach, given by Prof. Hicks and Allen, where utility is ranked, such as 1st, 2nd, 3rd, etc..
+
+### Indifference Curve (IC)
+
+An Indifference Curve shows different combinations of two goods that provide the same level of satisfaction (utility) to the consumer.
+
+| Combination | Good X | Good Y | MRS ($\frac{\Delta Y}{\Delta X}$) |
+| :---------- | :----- | :----- | :-------------------------------- |
+| A           | 1      | 10     | -                                 |
+| B           | 2      | 7      | 3:1                               |
+| C           | 3      | 5      | 2:1                               |
+| D           | 4      | 4      | 1:1                               |
+
+* **Indifference Map**: A set of indifference curves drawn on a graph.
+* **Marginal Rate of Substitution (MRS)**: The amount of good Y that a consumer is willing to give up to consume one additional unit of good X while keeping total utility unchanged. The formula is $MRS = \frac{\Delta Y}{\Delta X}$.
+* **Monotonic Preference**: The preference of a consumer for more goods over less.
+
+### Properties of Indifference Curves
+
+1.  **An IC always slopes downwards from left to right**: This is because if a consumer wants more of one good (X), they must give up some quantity of the other good (Y) to maintain the same level of satisfaction.
+2.  **Indifference curves are always convex to the origin**: This implies that the slope of the IC (the MRS) decreases as we move down the curve. This is based on the assumption of a decreasing marginal rate of substitution.
+3.  **A higher indifference curve represents a higher level of satisfaction**: A bundle on a higher IC contains more of at least one good, and more goods imply more utility.
+4.  **Two indifference curves never intersect each other**: If they did, it would imply a contradiction. A single point (the intersection) would represent two different levels of satisfaction, which is impossible.
+
+### Budget Line
+
+A budget line shows the different possible combinations of two goods that a consumer can purchase, given their entire money income and the market prices of the goods.
+* **Equation**: $P_1X_1 + P_2X_2 = M$.
+* **Budget Set**: This consists of all possible combinations of two goods that a consumer can afford with their income at prevailing prices. It includes bundles on or below the budget line. The equation is $P_1X_1 + P_2X_2 \leq M$.
+
+* **Shift in Budget Line**: Occurs when the consumer's income changes.
+    * An increase in income shifts the line outward (to the right).
+    * A decrease in income shifts the line inward (to the left).
+* **Rotation of Budget Line**: Occurs when the price of one of the commodities changes while the other remains constant.
+    * If the price of X falls, the line rotates outward on the X-axis. If it rises, it rotates inward.
+    * If the price of Y falls, the line rotates outward on the Y-axis. If it rises, it rotates inward.
+
+### Consumer's Equilibrium (Ordinal Approach)
+
+A consumer reaches equilibrium under the following conditions:
+
+1.  The Marginal Rate of Substitution (MRS) is equal to the price ratio of the two goods.
+    * $MRS_{xy} = \frac{P_x}{P_y}$.
+    * This means the slope of the budget line is equal to the slope of the indifference curve, or the budget line is tangent to the indifference curve.
+2.  The indifference curve is convex to the origin at the point of equilibrium. This implies a diminishing MRS.
+
+**What happens in a state of disequilibrium?**
+* If $MRS_{xy} > \frac{P_x}{P_y}$, it means the consumer is willing to sacrifice more of Y for one unit of X than the market requires. This induces the consumer to buy more of X and less of Y, which causes the MRS to fall until it equals the price ratio.
+* If $MRS_{xy} < \frac{P_x}{P_y}$, it means the consumer is willing to sacrifice less of Y for one unit of X than the market requires. This induces the consumer to buy less of X and more of Y, which causes the MRS to rise until it equals the price ratio.
+
+### Assumptions of Indifference Curve Analysis
+
+* **Utility is Ordinal**: Utility is a psychological phenomenon and can only be ranked (1st, 2nd, etc.), not measured in cardinal numbers.
+* **Two Goods**: It is assumed the consumer buys only two goods.
+* **More is Better**: The consumer always prefers more of any good to less of it, meaning they have not reached the point of satiety.
+* **Rational Consumer**: The consumer is assumed to be rational and always tries to maximize their satisfaction in any given situation.

@@ -1,0 +1,110 @@
+Q. 3.35. Define supply.
+
+Ans. **Meaning of Supply**. Supply of a commodity by a firm refers to the quantity of commodity which the firm is willing to supply (sell) at a particular price and time. Like demand, supply also has three elements, namely, quantity of commodity, particular price and particular time. We cannot think of supply apart from price. For instance, at the price of ₹35 per kg, a seller may offer 100 kg of sugar for sale but @ ₹37 per kg, he may offer 200 kg of sugar. Similarly, he may offer different quantities for sale at different times. In short, the quantity of a commodity which an individual firm (or producer) is ready to sell at a particular price and time is called supply by the firm. It shows firm's willingness to sell and not what it actually sells. Supply is a flow and is, therefore, expressed as the amount of a commodity which is offered for sale per unit of time.
+
+1.  **Own price of the commodity.** A producer usually offers more quantity of commodity for sale at a higher price and less quantity at a lower price. In other words, supply of the commodity whose price has not risen will not rise whereas that of other whose price has gone up will rise. Clearly it means that other things being constant, supply of a commodity is directly related to the own price of the commodity. This relationship between price and supply is illustrated in the next section on 'law of supply'. Thus most important factor affecting supply of a commodity is its own price. Determinants noted below are called 'factors other than the price'.
+
+2.  **Change in technology of production.** Advance technology reduces cost leading to more profit. Thus a change in technique of production which lessens cost of production, increases supply of the commodity and shifts supply curve rightward. As against it, supply of those goods which are being produced with old and inferior technology causing increase in cost of production will fall and supply curve will shift leftward. That is why efforts are constantly made by the producing units to evolve an efficient technology which reduces marginal cost of production. Under such conditions of falling marginal cost, supply curve shifts rightward (i.e., below the old supply curve). Hence it follows that a technological progress increases the supply and shifts the supply curve to the right.
+
+3.  **Change in price of inputs or factors of production.** Change in prices of raw material and remuneration of factors (rent, wages, interest etc.) influences the cost of production of a commodity and thereby supply. An increase in the price of a factor of production may lead to fall in production of a commodity shifting the supply curve to the left. Contrary to it, a producer may supply more of a commodity at a given price if prices of factors fall shifting the supply curve to the right.
+
+4.  **Change in excise duty (or tax rate).** Government levies various taxes on production of good (e.g., excise duty, custom duty etc.). Such taxes influence supply because it adds to the marginal cost of production. For example, increase in excise duty rate on a particular commodity will increase marginal cost leading to fall in supply and shift supply curve to the left. In short, higher tax rate results in decrease in supply whereas lower tax rate leads to increase in supply. **Effect of subsidy on supply.** Effect of subsidy is opposite of indirect tax. Subsidy by government on production of good leads to fall in price of the good. This increases sale and revenue of the firm. Cost remaining unchanged profit rises. As a result supply increases.
+
+5.  **Price of other related goods.** Supply of a good is also influenced by prices of other goods. How? Suppose a firm produces two goods X and Y with its given resources. An increase in the price of Y induces the firm to produce more of Y good by diverting its resources from production of X to Y. It is because producing Y good is now more profitable than producing X good. As a result supply of Y good increases and its supply curve shifts rightward whereas supply of X good decreases and its supply curve shifts to leftward. When price of related goods increases, the supply of the good in question (here x) falls because selling other good (here y) is more profitable. Similarly if the other related good is substitute (say rice) of the given good (say wheat). by applying the same approach we can say, "an increase in the price of a substitute goods in production shifts the supply curve of the given good to the left."
+
+6.  **Objectives of the firm.** Sometimes a firm may be induced to increase supply of a commodity not because it is more profitable but because its supply is a source of status and prestige in the market. Similarly, a firm may increase production just to achieve the goal of maximum sale or maximum employment. Likewise, supply is also affected by the priority given to different objectives (goals) and the readiness to sacrifice the one for the other.
+
+**Miscellaneous.** Other determinants of supply are: future expectation of rise in price, time involved in production (short or long period), agreements among producers etc.
+
+**Supply function.** It explains functional relationship between supply of a commodity and the determinants of supply. Supply of commodity by a firm depends on price of the commodity, prices of other commodities, state of technology, cost of factors of production, objectives of firm etc. The relationship between the quantity supplied and its determinants is called supply function. This can be expressed mathematically as shown below.
+$Sn = f (Pn, Pr, T, F, O ....)$
+Where:
+- $Sn =$ quantity supplied of commodity n
+- $f =$ function of (or depends on)
+- $Pn =$ price of commodity n
+- $Pr =$ price of related good
+- $T =$ technology of production
+- $F =$ cost of factors of production (inputs)
+- $O =$ objectives or goals of the firm
+
+[For market supply and its determinants see Q. 3.42.]
+
+---
+
+Q. 3.37. State and explain the law of supply with the help of a supply schedule and supply curve. (A 2004)
+- What is supply schedule? (D 2011)
+- What is meant by the assumption 'other things remaining the same' on which law is based? (D 2010)
+
+Ans.
+1.  **Statement of Law.** The law of supply states, "Other things being constant, the quantity supplied of a commodity is directly related to the price of commodity". In other words, when price of a commodity rises, supply also rises and when price falls, supply also falls provided other factors remain unchanged. Clearly law of supply states the effect of a change in its own price of the commodity on supply. Thus, keeping all the determinants except price of the commodity constant, a positive relationship between the price and supply is seen. It is to be noted that while the relationship between price and supply is direct (positive), that between price and demand is inverse. Consequently while supply curve is positively sloped, demand curve is negatively sloped. Evidently the producer or seller increases his supply at a higher price because thereby he earns larger profit. Mind, law of supply indicates qualitative and not quantitative relationship between price and supply of the commodity. The law of supply can be illustrated with the help of following hypothetical supply schedule and supply curve.
+
+2.  **Supply Schedule.** It is a tabular statement showing different quantities of a commodity which a firm is ready to sell at different prices during a given period of time. In other words, supply schedule shows the relationship between the price of the commodity and its quantity which a firm is ready to sell. It needs to be noted that change in quantity supplied is solely due to change in the price of the commodity since factors other than the price are assumed to be constant. Take, for example, the following imaginary supply schedule in which supply of sugar by a firm at different prices is shown.
+
+### SUPPLY SCHEDULE
+
+| Prices of sugar per kg (₹) | Quantity supplied (kg) |
+| :------------------------- | :--------------------- |
+| 20                         | 50                     |
+| 16                         | 40                     |
+| 12                         | 30                     |
+| 8                          | 20                     |
+| 4                          | 10                     |
+
+3.  **Supply Curve.** A supply curve reflects the relationship between the price and quantity supplied graphically what the supply schedule shows arithmetically. Thus a supply curve is a graphical representation of quantity supplied at different price levels. The above supply schedule has been depicted in the form of a supply curve. Figure 3.24 shows clearly a positive relationship between the price and supply of the commodity because with rise in price, the curve rises upward from left to the right.
+
+**Description of Figure 3.24:** This graph shows a standard supply curve. The Y-axis is labeled "PRICE" and the X-axis is "QUANTITY SUPPLIED." A straight line labeled "SUPPLY CURVE" slopes upward from left to right, passing through points (10, 4), (20, 8), (30, 12), (40, 16), and (50, 20). This illustrates that as the price increases, the quantity supplied also increases.
+
+**Shape of Supply curve (Positively sloped).** It should be noted that the supply curve of a firm is generally positively sloped, i.e., it rises rightwards when price rises and it slopes leftwards when price falls as shown in Fig. 3.24. Thus supply curve reflects direct relationship between price and quantity supplied. (This is in sharp contrast to demand curve which reflects inverse relationship between price and quantity demanded.) Again the above supply curve is a straight line which need not be so always. It can be hyperbola in shape depending upon data of supply schedule.
+
+4.  **Assumptions of Law of Supply (Other things being equal).** The phrase 'other things being constant' used in the law of supply shows the assumptions of the law. The law of supply is based on the assumption that all the determinants of supply except own price of the commodity should remain constant as shown below.
+    - (i) Cost of inputs/factors of production should remain the same
+    - (ii) Technology of production should not change.
+    - (iii) Taxation policy of the government should not change.
+    - (iv) Price of other related goods should not change.
+    - (v) Goal (objectives) of the firm should not change.
+
+**Exceptions.** There are some situations when law of supply does not operate. They are: (i) Expectations of future changes in price and (ii) Artistic goods of high quality and antiques.
+
+---
+
+**Basis of Law of Supply (Why supply is more at higher price)** - The basis of law of supply (or supply curve) is increasing marginal cost. As a result the supply curve is upward sloping The rising portion of MC curve is the supply curve itself.
+
+---
+
+Q. 3.38. Distinguish between change in supply a change in quantity supplied.
+
+Ans. We may classify all determinants of supply into two categories: (i) In the first category we include only one factor namely own price of the commodity; (ii) In the second category we include all the remaining factors, i.e., all factors other than the own price of the commodity. Briefly change in supply due to change in own price of the commodity is known as change in quantity supplied, or expansion and contraction of supply and the resultant supply curve is called movement along a supply curve. In contrast, change in supply due to change in factors other than the own price of the commodity is known as merely change in supply, or increase and decrease in supply and the resultant supply curve is called shift in supply curve as explained below.
+
+(a) **Change in quantity supplied.** When change in supply is caused due to change in own price of the commodity, it is called change in quantity supplied. Law of supply states the effect of change in the own price of a commodity on its supply. Thus when quantity supplied of a commodity changes (rises or falls) due to change (rise or fall) in its own price, it is called change in quantity supplied. It is expressed in the form of either expansion or contraction of supply. The resultant supply curve is known as movement along a supply curve. Expressed differently, change in quantity supplied indicates movement along a given supply curve (upward or downward).
+
+(b) **Change in supply.** When change (increase or decrease) in supply is caused by change in 'factors other than the own price of the commodity', it is merely called change in supply. Such causes are state of technology of production, prices of inputs (factors) and taxation policy of government. Change in supply is expressed in the form of either increase or decrease in supply. The resultant supply curve is known as shift in supply curve (rightward or leftward). Alternatively change in supply indicates shift in supply curve. Simply put, supply implies the 'whole supply schedule' showing different quantities of a commodity offered for sale whereas quantity supplied refers to a specific quantity within the schedule offered for sale at specific price.
+
+---
+
+Q. 3.39. (a) Distinguish between Expansion (Extension) and Contraction of Supply. (b) What is meant by movement along a supply curve? What causes it? (D 2005)
+- What causes a downward/upward movement along a supply curve? (D. 2004, 08, 09; A 2005)
+
+Ans.
+(a) **Expansion and Contraction of Supply.** When supply of a commodity rises with rise in its own price, other things remaining constant, it is called expansion (not increase) of supply. Similarly other things remaining constant, when supply of a commodity falls with fall in its own price, it is termed as contraction (not decrease) of supply. In short, expansion (extension) and contraction of supply are caused by change in commodity's own price. Mind, here factors other than price of commodity affecting supply are constant. The supply curve reflecting expansion and contraction of supply denotes movement along a supply curve as shown in Fig. 3.25.
+
+**Description of Figure 3.25:** This graph is titled "MOVEMENT ALONG A SUPPLY CURVE." The Y-axis is "PRICE" and the X-axis is "QUANTITY SUPPLIED." An upward-sloping supply curve (S-S) is shown. A movement up the curve from a point at price Q and quantity Q to a point at a higher price Q1 and higher quantity Q1 is labeled "Expansion." A movement down the curve from the point (Q, Q) to a point at a lower price Q2 and lower quantity Q2 is labeled "Contraction."
+
+(b) **Movement along a Supply Curve.** Rise and fall in supply of a commodity due to change in its price (i.e., expansion and contraction of supply) graphically means movement along a supply curve. A rise or fall in price alone causes a movement along a supply curve. When changes in quantity supplied are indicated on the same supply curve it is known as movement along a supply curve. When we move from lower price to higher price, we move up along the supply curve and when we move from higher price to lower price, we move down along the supply curve. Thus, a change in supply due to change in price when depicted graphically means movement along (up and down) a supply curve as shown in Fig. 3.25.
+
+**Causes:** Clearly the change (rise and fall) in price of the commodity itself causes downward or upward movement along a supply curve.
+
+---
+
+Q. 3.40. (a) Distinguish between increase and decrease in supply.
+- Explain three causes of increase (or change) in supply.
+- Explain any two causes of decrease in supply of a commodity.
+(b) What is meant by shift in supply curve? (D 04, 06; A 06, 09)
+- Give three reasons for rightward shift/leftward shift of supply curve.
+
+Ans.
+(a) **Increase and Decrease in Supply.** When supply of a commodity rises due to change in factors other than the price (i.e., rises at the same price), it is called increase in supply. Likewise, when supply of a commodity falls as a result of change in factors other than the price (i.e., falls at the same price), it is termed as decrease in supply. In other words, increase and decrease in supply are the result of change in factors other than the price such as change in technology, change in input prices etc. It shows that at the same price, firm is ready to supply a higher or lower quantity. Consequently supply curve shifts to the right in case of increase in supply and to the left in case of decrease in supply as depicted in Fig. 3.26.
+(More quantity supplied at the same price or same quantity supplied at lesser price is also called increase in supply. Similarly less quantity supplied at the same price or same quantity supplied at a higher price is called decrease in supply.)
+
+**Description of Figure 3.26:** This graph is titled "Shift of Supply curve." The Y-axis is "PRICE" and the X-axis is "QUANTITY SUPPLIED." An initial upward-sloping supply curve (S-S) is shown passing through a point where price is P and quantity is Q. A shift to the right, to a new curve S1-S1, is labeled "Increase in Supply," showing a greater quantity Q1 at the same price P. A shift to the left, to a new curve S2-S2, is labeled "Decrease in Supply," showing a smaller quantity Q2 at the same price P.
+
+**Causes of increase in Supply are:** (i) Fall in the prices of competing commodities, (ii) Fall in prices of inputs or in the remuneration of factors of production, (iii) Improvement in technology, (iv) Change in goals (objectives) of producers from profit maximisation to sale maximisation, (v) Decrease in excise duty, and (vi) Increase in number of firms in the market.

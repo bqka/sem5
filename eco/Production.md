@@ -1,0 +1,325 @@
+# 1. The Concept of Production
+By production we mean the process of creating various goods and services which are consumed by the people of the country. It is to be emphasised that goods and services are not created out of nothing. Production is a process in which inputs are transformed into output. Whatever is used in the production process is called an input (or a factor of production) and whatever is obtained in the process is an output. Production, thus, means transforming inputs into output and output is the end result of the production process.
+
+# 2. Meaning of Production Function
+The relation between physical inputs and physical output is called a production function, Production function shows how much quantity of each input is required to produce a given output of a good. Suppose, the good produced is good X. Then, mathematically, a production function is expressed as follows:
+$Q=f(x_{1},x_{2}............X_{n})$
+where Q is physical quantity produced per time period.
+$x_{1},x_{2}..............x_{n}$ are the physical quantities of various inputs, and f is function of or depends upon.
+
+> "Production function is an expression which states the mathematical relation between physical inputs used in production of a good and physical output of that good."
+
+Note that from the same amount of the inputs, the more efficient producer will produce more and the less efficient producer will produce less. In this case, the production function is meaningless because we do not know the exact value of output even if we know the value of inputs. For this reason while writing a production function, we assume that production is efficient. Given the values of inputs, the maximum level of output that can be obtained from these inputs is to be taken as the level of output. Thus the production function of a firm may be defined as a technological relation that tells the maximum levels of output from different combinations of inputs. In any production function, only technically efficient combinations of inputs are used so that maximum level of output is obtained from a given quantity of inputs. With the advance in technology, more can be produced with the same set of inputs or the same output can be produced with less amount of inputs. We, then, have a new production function.
+
+## Features of Production Function
+The main features of a production function are as follows:
+(a) It is physical technical relation: Production function expresses the technical relation (not economic relation) between inputs and outputs. It is purely a physical technical relation. It has nothing to do with the money value of output produced and prices of factors of production used.
+(b) It is determined by the state of technology: The quantity of factors of production to be employed and the manner in which they shall be combined depend upon the state of technology. Production function takes into account the most efficient technology available at a time.
+(c) Period of time: A production function is expressed with reference to a particular period of time because production is a flow, that is, it is so many units of output per period of time say per day, per month etc.
+
+# 3. Short Run and Long Run
+The functional relationship between change in output due to change in inputs is studied in two time periods- Short run and Long run.
+
+## 3.1. Short Run
+Short run refers to a period in which output can be changed only by changing the quantity variable factors. During the short run, the quantity of fixed inputs like plant, machinery, building etc. cannot be changed. It remains the same (fixed). It means production can be raised only by increasing the quantity of variable factors. But it will be possible upto the extent of capacity of fixed factors. For example, if a producer wants to increase output in the short run, then he can do so only by using more of raw materials and labour with the existing factory building, plant and equipment. He cannot immediately expand factory building, install additional plant and equipment in the short run.
+
+## 3.2. Long Run
+Long run refers to a period in which output can be changed by changing all factors of the production. In the long run, all factors (inputs) are variable. Firm can change its scale of production, shift to new techniques of production, purchase new machinery etc. Therefore, the distinction between fixed factors and variable factors disappears in the long run. We may now sum up the difference between short run and long run as under :
+
+| Basis | Short run | Long run |
+| :--- | :--- | :--- |
+| **1. Meaning** | Short run refers to a time period in which output can be changed only by changing the quantity of variable factors. | Long run refers to a time period in which output can be changed by changing the quantity of all factors of production. |
+| **2. Classification of factors of production** | Here, factors of production are classified into fixed and variable factors. | Here, all factors of production are variable. |
+
+# 4. Fixed Factors and Variable Factors
+Factors of production are classified into two categories :
+1. Fixed Factors
+2. Variable Factors
+
+## 4.1. Fixed Factors
+Fixed factors refer to those factors of production which cannot be changed during short run. These are used in a fixed quantity in the short run. These factors can be changed only in the long run. These factors are not directly related to the level of output. In fact, fixed factors have to be employed even before the output actually starts. Land, plant and machinery, factory building, top management are examples of fixed factors.
+
+## 4.2. Variable Factors
+Variable factors are those factors of production which can be changed during short period. The quantity of variable inputs varies according to the level of output. Labour, raw material, fuel, power, etc. are examples of variable factors.
+
+### Difference between Fixed factors and Variable Factors
+
+| Basis | Fixed Factors | Variable Factors |
+| :--- | :--- | :--- |
+| **1. Meaning** | Fixed factors refer to those factors the quantity of which cannot be changed in the short run. | Variable factors are those factors the amount of which can be changed in the short run. |
+| **2. Relation with Output** | They are not directly related to output. | They are directly related to output. |
+| **3. Examples** | (i) factory building, (ii) plant and machinery, (iii) permanent staff | (i) raw material, (ii) casual labour, (iii) fuel |
+
+# 5. Types of Production Function
+Economists distinguish between two basic relationships of inputs and outputs. First, the application of one or more factors is kept constant while the application of one factor is varied. The resulting behaviour of output is termed as 'returns to a factor. Second, the application of all the factors is changed simultaneously and in the same proportion. The resulting behaviour of output is termed as 'returns to scale'.
+
+## 5.1. Short Run Production Function
+In short run, supply of some inputs is variable while that of other remains fixed. We use the simplified production function with only two inputs(a) labour which is variable and (b) capital which is fixed.
+
+### Example:
+Production function in the short run can be expressed as follows :
+$Q=(L,\overline{K})$
+where, $Q=$ Quantity of output of a given commodity; $L=$ Labour; $K=$ Fixed capital
+In short, output (Q) depends upon physical inputs L and K. Since K is constant and L changes, the proportion between K and L changes as output is increased.
+Short run production can be illustrated with the help of an example. Suppose, the value of K is constant at 2, while $L=3$ units. Further, suppose that the maximum quantity of output of good X that can be produced is 20, then production function can be written as :
+$20~x=f(3L,2\overline{K})$
+If the amount of variable factor (L) increases from 3 to 4 units and maximum possible output of good X is 25 units then, production function is expressed as under:
+$20~x=f(4L,2\overline{K})$
+
+## 5.2. Long Run Production Function
+On the other hand, in the long run, all factors are variable. Therefore, scale of production can be changed in the long run. Long run production function explains the behaviour of output when the quantities of all factors of production are increased in a fixed proportion. With the given technology, long run production can be expressed as under :
+$Qx=f(L,K)$
+Where $Qx=$ maximum possible output of good X; $f=$ function ; $L=$ labour ; $K=$ Capital
+
+### Example :
+Suppose $L=4$ and $K=3$ then Production is expressed as :
+$30=f(4L,3K)$
+which implies that by 4 units of labour and 3 units of capital, maximum possible production is 30 units. Now suppose the amounts of labour and capital are doubled while keeping the factor proportions constant, the production function takes the following form :
+$50=f(8L,6K)$
+which implies that the output rises from 30 units to 50 units, when the amounts of labour and capital are doubled.
+
+# 6. The Concepts of Product
+
+## 6.1 Total Product
+Total product refers to the total quantity of a good produced by a firm with the given quantity of a variable input. It signifies relationship between the variable input and output keeping all other inputs constant. We can illustrate it with the help of an example. If labour (L) and capital (K) are the variable and fixed factors respectively and if 5 units of L are used (along with some fixed amount of K), and if their contribution to output is 2, 3, 4, 3, 2 units respectively, then $TP=14(2+3+4+3+2$) units of the commodity. TP is the sum total of output of each unit of the variable factor used in the process of production. Total product is also called total return or total physical product of the variable input, Physical product means production (or output) measured in physical units of the good.
+
+### Table 5.1 TP, MP & AP of a Variable Factor
+
+| Units of labour (Variable Factor) | Total Product (units) | Average Product (units) | Marginal Product (units) |
+| :--- | :--- | :--- | :--- |
+| **(1)** | **(2)** | **(3)** | **(4)** |
+| 1 | 2 | 2 | 2 |
+| 2 | 5 | 2.5 | 3 |
+| 3 | 9 | 3 | 4 |
+| 4 | 12 | 3 | 3 |
+| 5 | 14 | 2.8 | 2 |
+| 6 | 15 | 2.5 | 1 |
+| 7 | 15 | 2.14 | 0 |
+| 8 | 14 | 1.75 | -1 |
+
+Two features of total product need to be mentioned here. First, the quantity of total output depends on the quantity of the variable factor employed. For each level of employment, we will implies possible/probable the actual output. It shows the maximum amount of output which can be obtained from different levels of employment of variable input.
+
+## 6.2 Average Product
+Average product is defined as the output per unit of variable input. We calculate it as :
+$AP=\frac{TP}{L}$
+Where L is the level of employment of the variable input, TP denotes total product. In table 5.1 we have reproduced the total product schedule. In column 3, we have corresponding values of average product. It shows that at 1 unit of labour, AP is 2 units of output, at 2 units of labour AP is 2.5 units output and so on. Average product is also called average physical product (APP).
+
+## 6.3 Marginal Product
+Marginal product (also called marginal physical product) of an input is defined as the change in output by the employment of an additional unit of labour. Thus, if amount of labour increases by AL units and as a result, total output increases by ATP units. Marginal product is given by
+$MP_{L}=\frac{\Delta TP}{\Delta Q}$
+Where ATP represents change in output and $\Delta L$ denotes change in the amount of variable input labour. Marginal product can also be calculated in the following way :
+$MP_{L}=TP_{L}-TP_{L-1}$
+Here L stands for number of units of the variable factor and $TP_{L}$ stands for total product at a certain level of employment of the variable factor.
+
+### Example (using Table 5.1)
+TP at 3 units of labour is 9 units of output
+TP at 2 units of labour is 5 units of output
+Then
+$=96-9u=u$
+
+# 7. The Law of Variable Proportions
+The law of variable proportions explains the effect of an increase in the amount of a variable factor on the total output. If there are only two factors namely labour (variable factor) and land (fixed factor), a firm can change its output by changing only the amount of variable factor (say labour) while other factors remaining unchanged. In this case, the factor proportion will gradually fall with an increase in the amount of labour. So, this law is known as the law of variable proportions.
+
+## 7.1 Statement of the Law
+According to this law, as the quantity of variable input is increased, keeping other factors fixed, initially total product increases at an increasing rate, then increases at a decreasing rate and finally it (TP) starts falling. Expressed in terms of marginal product, the law states that if more and more units of variable inputs are applied with the given quantity of fixed factors, initially the marginal product increases, then it decreases to zero but remains positive and finally while declining it becomes negative.
+
+## 7.2 Explanation
+The law of variable proportions outlines 3 stages (or phases) of returns to a variable factor. These stages help a firm to decide the amount of the variable input it should use to maximise its profit. These stages are:
+(i) Increasing returns
+(ii) Diminishing returns
+(iii) Negative returns
+
+**Stage I.** In this stage, when a firm increases only one variable factor of production, keeping other factors unchanged, the marginal product of the variable factor rises and total product increases at an increasing rate. In table 5.2 this stage holds till $L=3$ We call it increasing returns to the variable factor. Returns here implies marginal returns or marginal product. Thus marginal product is increasing in this stage.
+
+### Table 5.2 Returns to a Factor: Three Stages
+
+| Fixed factor | Units of Variable Factor (Units) | Total Product (Units) | Marginal Product (Units) | Stages |
+| :--- | :--- | :--- | :--- | :--- |
+| **Units of Land (2 Acres)** | 1 | 4 | 4 | **Stage I Increasing Returns** |
+| | 2 | 10 | 6 | |
+| | 3 | 18 | 8 | **Stage II** |
+| | 4 | 24 | 6 | **Diminishing Returns** |
+| | 5 | 28 | 4 | |
+| | 6 | 30 | 2 | |
+| | 7 | 30 | 0 | **Stage III** |
+| | 8 | 28 | -2 | |
+
+In Fig. 5.1 MP tends to rise till $OL_{1}$ units of labour corresponding to increasing MP, TP tends to rise at the increasing rate from point O to $L_{1}$ in the Part A of the diagram. It is the point from where slope of TP changes. Upto this point TP increases at increasing rate and from this point onwards TP increases at decreasing rate (ending of the 1st stage and beginning of the 2nd stage). In the figure point K is the point of inflexion. TP changes its shapes from this point.
+
+**Stage II.** In this stage, increase in the input of variable factor (labour) is leads to decrease in MP but it remains positive. TP increases at decreasing rate. In the diagram between $L_{1}L_{2}$ units of labour, MP tends to fall but remains positive from point R to $L_{2}$ and TP increases at decreasing rate from point K to T.
+
+**Stage III.** In this stage, increase in the units of variable input results in negative MP and TP starts declining. In the figure, when labour is employed beyond $OL_{2}$ units, MP becomes negative implying a fall in TP (beyond point T).
+
+### Stage of Operation
+(i) A profit-maximising firm will never operate in stage III. It is because, by entering stage III, a firm will have to incur higher cost on one hand (as it is hiring more of the variable input) and at the same time will get less revenue in the product market as total output is falling. In this stage marginal product of each variable factor becomes negative.
+(ii) A profit maximising firm will also not operate in stage I because it is getting increasing marginal returns. In this stage each increase in the quantity of variable factor gives more and more output.
+(iii) This leaves out only stage II, in which the marginal returns to the variable input are positive but diminishing. From the view point of the operation of the firm, this is the most relevant stage.
+
+* Stage I: Between $OL_{1}$, TP increases at an increasing rate and MP increases.
+* Stage II: Between $L_{1}L_{2}$ TP increases at a diminishing rate and MP decreases.
+* Stage III: Beyond point $L_{2}$, TP starts declining and MP becomes negative.
+* K is the point of inflexion. At this point TP changes its shape from increasing rate to decreasing rate.
+
+## 7.3 Assumptions of the Law
+The law is based upon the following assumptions :
+(i) The firm operates in the short run. This means that only one factor of production is variable while all other factors are constant.
+(ii) The technique of production does not change.
+(iii) All units of the variable factor are equally efficient. This implies that output does not change because one unit of labour is more efficient than another. All units take the same time and effort to do the job.
+
+## 7.4 Causes of Operation
+### (1) Causes of Increasing Returns to a Factor
+The main causes responsible for increasing returns in the first stage are as follows:
+(i) Better-utilization of fixed factors: The amount of fixed factor available in this stage is much more than the availability of variable factor. When more and more units of variable factor (labour) are applied, the fixed factor will be used more effectively.
+(ii) Specialisation and division of labour : As the number of labour is increased each labour specialises in a particular activity and thus adding to the average and marginal products.
+(iii) Indivisibility of fixed factors: Generally fixed factors are indivisible. Such factor cannot be used in smaller units. Therefore, addition to more and more units of variable factor improves the utilisation of fixed factor. Increasing returns tend to occur so long as optimum level of combination between fixed factor and variable factor is achieved.
+
+### (2) Causes of the Diminishing Returns to a Factor
+There are two main reasons behind the operation of diminishing returns to a factor. These are:
+(i) Optimum capacity: When the optimum combination of fixed and variable factors is reached, then further increases in the amount of variable factor lead MP to decline. It is because the fixed factor now becomes inadequate relative to the quantity of variable factor.
+(ii) Lack of perfect substitutability between factors: Diminishing returns occur because the factors of production are imperfect substitutes for one another. For example, more labour can be applied in place of capital. But labour cannot be continuously used in place of capital. This reduces MP of the variable factor.
+
+### (3) Causes of Negative Returns
+The third stage i.e., the stage of negative returns can be explained in terms of the following reasons:
+(i) Overcrowding: If more and more units of variable factor are applied on a given quantity of fixed factor, this will lead to overcrowding on the fixed factor. There will be lower availability of fixed factor per worker. Moreover, if there are too many workers on a given amount of fixed factor, they will come in each other's way and disturb others. All this leads to a fall in total output.
+(ii) Management problem: When there are too many workers, it becomes difficult to manage them. The labourers can avoid work.
+
+# 8. Relation Between TP, MP and AP
+## 8.1 Relationship between TP and MP
+
+### Table 5.3: Relation between TP and MP
+
+| Fixed Factor (Land) | Variable Factor (Labour) (Units) | TP (Units) | MP (Units) |
+| :--- | :--- | :--- | :--- |
+| 1 | 1 | 10 | 10 |
+| 1 | 2 | 30 | 20 |
+| 1 | 3 | 60 | 30 |
+| 1 | 4 | 80 | 20 |
+| 1 | 5 | 90 | 10 |
+| 1 | 6 | 90 | 0 |
+| 1 | 7 | 80 | (-)10 |
+| 1 | 8 | 60 | (-)20 |
+
+Table 5.3 and Fig. 5.2 show the relationship between TP and MP as under :
+(i) So long as TP rises at an increasing rate, MP rises. This happens upto 3rd unit of variable factor).
+(ii) When TP rises at a diminishing rate, MP falls but is positive. It is happening between 3 units to 5 units of the variable factor.
+(iii) When TP is maximum, MP is zero. It happens when 6th unit of labour is employed.
+(iv) When TP falls, MP becomes negative. It starts happening from 7th unit of variable factor.
+
+## 8.2 Relation between AP and MP
+The relationship between AP and MP is explained with the help of following table and diagram:
+
+### Table 5.4: Relation between AP and MP
+
+| Fixed Factor (Land) | Variable Factor (Labour) | TP (Units) | AP (Units) | MP (Units) |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 1 | 10 | 10 | 10 |
+| 1 | 2 | 30 | 15 | 20 |
+| 1 | 3 | 60 | 20 | 30 |
+| 1 | 4 | 80 | 20 | 20 |
+| 1 | 5 | 90 | 18 | 10 |
+| 1 | 6 | 90 | 15 | 0 |
+| 1 | 7 | 80 | 11.4 | (-)10 |
+| 1 | 8 | 60 | 7.5 | (-)20 |
+
+Table 5.4 and Fig. 5.3 show the relationship between AP and MP as under :
+(i) As long as MP is greater than AP, AP rises. It is happening till 3rd unit of variable factor.
+(ii) When MP is equal to AP, AP is its maximum. At 4th unit of the variable factor $AP=MP.$ Thus MP curve passes through the maximum point of AP.
+(iii) When MP is less than AP, AP falls. It happens from 5th unit onward of the variable factor.
+(iv) MP may be zero or negative but AP always remains positive. At 6th unit of variable factor, MP is zero and thereafter MP becomes negative.
+
+TP increases at an increasing rate and MP also increases upto 3 units. Therefore, 1st phase ends when 3 units of variable input are employed.
+
+# 10. Returns to Scale
+So far we have studied the short-run production function or different aspects of returns to factor of production where there was only one variable factor and all other factors were fixed (or constant). Now, we will study long-run production function or the input-output relation where all the factors of production are simultaneously changed.
+
+## 10.1 Meaning of Returns to Scale
+Returns to scale refers to the increase in output when all inputs are increased in the same proportion. Hence, to increase production, a firm has to increase all the factors, such as - the factory premises, machinery, labour, capital, organisational capacity, etc. in order to satisfy the long-run demand for a commodity. When all inputs are changed in the same proportion, we call this as change in scale (or input scale) of production. The way total output changes due to change in the scale of production (i.e., scale inputs) is known as the 'law of returns to scale'.
+
+## 10.2 Types of Returns to Scale
+When all the inputs increase in the same proportion, total product may increase at an increasing rate, at a constant rate or at a diminishing rate. Accordingly, there may be three types of returns to scale :
+(i) Increasing returns to scale
+(ii) Constant returns to scale, and
+(iii) Diminishing returns to scale.
+
+## 10.3 Explanation
+The law of returns to scale also has three stages which are shown as under :
+
+### Table 5.5: Production Function: Returns to Scale
+
+| | Scale of Inputs | Output Units | Returns to Scale |
+| :--- | :--- | :--- | :--- |
+| | **Units of Labour & Land (in Acres)** | **TP** | **MP** |
+| A | 2 & 1 | 5 | 5 |
+| B | 4 & 2 | 11 | Increasing 6 |
+| C | 6 & 3 | 18 | 7 |
+| D | 8 & 4 | 26 | 8 |
+| E | 10 & 5 | 34 | Constant 8 |
+| F | 12 & 6 | 42 | 8 |
+| G | 14 & 7 | 49 | Diminishing 7 |
+| H | 16 & 8 | 55 | 6 |
+
+Three types of returns to scale are shown as under :
+**Increasing Returns to Scale:** The law of increasing returns to scale operates when percentage increase in the total product is more than the percentage increase in all the factor inputs employed in the same proportion. For example, if labour and capital are increased by 100 per cent and the total product increases by 120 per cent, the law of increasing returns to scale operates. In table 5.5, from A to D there are increasing returns to scale. For example, in combination A, 2 units of labour and 1 acre of land produce 5 units of output. Compared to A, the combination B has double the amount of each input, but output (equal to 11 units) is more than double of the output at combination A. Similarly from B to C, inputs increase by 50% but output increases by more than 50% as 18 is more than 50% higher than 11. Increasing returns to scale occur upto combination D.
+
+**Constant Returns to Scale :** The law of constant returns to scale operates when a given percentage increase in all factor inputs in the same proportion causes equal percentage increase in total output. For example, 50 per cent increase in all factor inputs leads to 50 per cent increase in total output, it is called a situation of constant returns to scale. Between Combinations D to F, there are constant returns to scale. If the input scale is increased from D to F, marginal returns remain constant. When inputs are increased by the same proportion, the marginal returns from them remain at the same level at 8 units.
+
+**Diminishing Returns to Scale:** The law of diminishing returns to scale occur when a given percentage increase in all factor inputs in equal proportion causes less than percentage increase in total output. If a 20 per cent increase in all factor inputs causes only 10 per cent increase in total output, it is called a situation of diminishing returns to scale. In the third stage (combination E onward), if the scale of inputs increases, then total returns increases only at a diminishing rate.
+
+The above noted three different stages of returns to scale are shown in Fig. 5.4 in which input scale (labour and land) is measured by its horizontal axis and the marginal returns by its vertical axis. The returns to input scale is given by curve abcd, where increasing returns to scale is represented by ab part, constant returns to scale by bc and diminishing returns to scale by cd.
+
+## 10.4 Causes Behind Returns to Scale
+### Increasing Returns to Scale
+Increasing returns to scale are obtained due to following causes :
+(i) Indivisibility of Factors: Some factors are indivisible due to which they cannot be used in parts. In the beginning, these factors are not efficiently utilised. But on increasing the scale, these indivisible factors are used efficiently and therefore increasing returns to scale are obtained.
+(ii) Division of Labour: 'Division of Labour' is another main cause of increasing returns to scale. It increases efficiency which ultimately leads to increasing returns to scale.
+
+### Constant Returns to Scale
+On increasing production, economies of scale after a limit changes into diseconomies of scale. As scale of production is increased, economies of scale become equal to diseconomies of scale. This condition is called 'Constant Returns to Scale'. Constant returns to scale come for a short time after which diminishing returns to scale occur.
+
+### Diminishing Returns to Scale
+Diminishing returns to scale are caused by the following factors:
+(i) Managerial Problems: In the third stage, when scale of production becomes very large, managerial problems tend to arise. Managerial process becomes inefficient.
+(ii) Fixed Supply of Some Natural Factors: Diminishing returns to scale also arise because the supply of some natural factors is fixed. For example if the amount of factors of production is doubled, coal production will not increase proportionately.
+
+## 10.5 Distinction between Returns to Variable Factor and Returns to Scale
+
+| Basis | Returns to a Variable Factor | Returns to Scale |
+| :--- | :--- | :--- |
+| **1. Meaning** | Returns to a factor means the change in output when quantity of one factor is changed, other inputs remaining fixed. | Returns to scale means change in output when quantity of all the factors is increased simultaneously and in the same proportion. |
+| **2. Time Period** | It is a short run phenomenon. | It is a long run phenomenon. |
+| **3. Factor Proportion** | Under it, factor proportion goes on changing as more and more units of the variable factor are applied. For example: $\frac{OK}{OL_{2}}<\frac{OK}{OL_{1}}<\frac{OK}{OL_{0}}$ | Under it, factor proportion remains unchanged. That is, $\frac{OK_{0}}{OL_{0}}=\frac{OK_{1}}{OL_{1}}=\frac{OK_{2}}{OL_{2}}$ |
+| **4. Scale of Production** | No change in scale of production. | Scale of production changes. |
+| **5. Diagram** | (Refers to a diagram showing one factor increasing while the other is fixed) | (Refers to a diagram showing all inputs increasing along a scale line) |
+| **6. Cause of Operation** | **Phase I** <br> (i) Better utilization of fixed factor. <br> (ii) Division of labour and specialisation. <br> **Phase II** <br> (i) Ideal factor combination is disturbed. <br> (ii) Factors of producing are imperfect substitutes of each other. <br> **Phase III** <br> (i) Heavy pressure on fixed factors. <br> (ii) Emergence of managerial problems. | **Phase I** <br> (i) Indivisibility of some factors. <br> (ii) Division of labour and specialisation. <br> **Phase II** <br> (i) Economies of scale become equal to diseconomies of scale. <br> **Phase III** <br> (i) Managerial difficulties. <br> (ii) Fixed supply of fixed factor. <br> (iii) Diseconomies of scale. |
+
+> ### Box 5.1: Economies and Diseconomies of Scales
+> #### Economies of Scale
+> Economies of scale refers to the situation in which on increasing the scale of production, unit cost of production reduces or decreases and output per unit of factor inputs increases. Economies of scale are classified as:
+> (a) Internal Economies,
+> (b) External Economies.
+> Internal Economies are firm specific. They occur with the expansion of firm, i.e., internal economies occur inside the firm. Internal economies are a function of the size of firm. As size of production increases, a firm uses its factors of production more efficiently. Internal economies occur as a result of specialisation and division of labour which decreases long-run average cost.
+>
+> #### External Economies of Scale
+> These economies occur due to expansion of industry. Its benefits are not limited to one or two firm, but to all firms in the industry. These include the following:
+> (i) Availability of efficient labour at cheap rate.
+> (ii) Development of transport and communication facility.
+> (iii) Development of financial institutions, and hence, availability of cheaper credit.
+> (iv) Easy availability of raw material.
+> (v) Increase in efficiency of labourers by imparting training.
+> (vi) Obtaining information related economies by publication of investigation and business magazines.
+>
+> #### Diseconomies of Scale
+> If the production is increased after a certain limit, then economies of scale are converted to 'diseconomies of scale'. Diseconomies of scale are of two types:
+> 1. Internal Diseconomies,
+> 2. External Diseconomies.
+>
+> ##### Internal Diseconomies
+> Internal diseconomies refer to those factors which raise the cost of production of a firm, if its scale of production is increased beyond a point. These include the following:
+> (i) Management problems
+> (ii) Technical difficulties
+>
+> ##### External Diseconomies
+> External diseconomies are the result of excessive growth of the entire industry of which the individual firms are the members. This may lead to the following problems :
+> (i) Rise in input prices
+> (ii) Higher wages
+> (iii) Costlier transport

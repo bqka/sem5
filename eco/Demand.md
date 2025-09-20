@@ -1,0 +1,305 @@
+# All About Demand
+
+## What is Demand?
+
+**Demand** refers to the quantity of a commodity that a consumer is willing and able to buy at a particular price during a given period of time.
+
+The main elements of demand are:
+* Quantity of the commodity
+* Price of the commodity
+* A specific time period
+* Willingness to buy
+
+---
+
+## Factors Affecting Demand
+
+Several factors can influence the demand for a commodity.
+
+### 1. Price of the Commodity Itself
+There is a **negative relationship** between the price of a commodity and its quantity demanded. When the price of a commodity is high, its demand will be low, and vice-versa.
+
+### 2. Price of Related Goods
+There are two types of related goods:
+
+* **Complementary Goods**: These are goods that are used together to satisfy a want (e.g., car and petrol, pen and ink). There is an **inverse relationship** between the price of one complementary good and the demand for the other. For example, if the price of cars declines, the demand for petrol will increase.
+
+* **Substitute Goods**: These are goods that can be used in place of one another (e.g., Pepsi and Coke, tea and coffee). There is a **positive (direct) relationship** between the price of one substitute good and the demand for the other. For example, if the price of Pepsi increases, the demand for Coke will also increase.
+
+### 3. Income of the Consumer
+The consumer's income affects the demand for two types of goods:
+
+* **Normal Goods**: These are goods whose demand increases as the consumer's income increases, and decreases as income decreases (e.g., full cream milk, basmati rice). The relationship is **direct**.
+
+* **Inferior Goods (or Giffen Goods)**: These are goods whose demand decreases as the consumer's income increases, and increases as income decreases (e.g., toned milk). The relationship is **inverse**.
+
+### 4. Tastes and Preferences
+If a consumer has a strong preference for a particular commodity (e.g., Tata Salt), its demand will be high, regardless of other factors.
+
+### 5. Weather and Climate
+Demand for certain goods is seasonal. For example, the demand for cold drinks and ice creams increases during the summer and decreases during the winter.
+
+---
+
+## Demand Function and the Law of Demand
+
+### Demand Function
+A demand function shows the relationship between the quantity demanded of a commodity and its various determinants. It can be expressed as:
+`Dx = f(Px, Pr, Y, T, ...)`
+Where:
+* `Dx` = Demand for commodity X
+* `f` = Functional relationship
+* `Px` = Price of commodity X
+* `Pr` = Price of related goods
+* `Y` = Income of the consumer
+* `T` = Tastes and preferences
+
+### The Law of Demand
+> "Other things remaining constant, there is a negative relationship between the price of a commodity and its quantity demanded."
+
+This means that when the price of a commodity increases, its demand will decrease, and vice-versa, assuming all other factors remain unchanged.
+
+---
+
+## Demand Schedule and Demand Curve
+
+* **Demand Schedule**: This is a table that shows the different quantities of a commodity demanded at different prices.
+    | Price per Unit (₹) | Quantity Demanded (Units) |
+    | :----------------- | :------------------------ |
+    | 10                 | 100                       |
+    | 8                  | 120                       |
+    | 6                  | 150                       |
+
+* **Demand Curve**: This is a graphical representation of the demand schedule. The demand curve is **negatively sloped**, meaning it slopes downward from left to right.
+
+---
+
+## Assumptions and Exceptions to the Law of Demand
+
+### Assumptions
+The phrase "other things remaining constant" (*ceteris paribus*) is the core assumption of the Law of Demand. It means the law only operates if factors other than the commodity's own price (like income, tastes, and prices of related goods) do not change.
+
+### Exceptions
+In some situations, the Law of Demand does not apply. When the price increases, demand also increases.
+* **Giffen Goods**: These are a special category of inferior goods. For these goods, a fall in price leads to a fall in demand because the extra purchasing power is used to buy superior goods instead.
+* **Goods for Ostentation (Status Symbol Goods)**: These goods are purchased for their prestige value (e.g., luxury jewelry). A lower price might decrease their demand, while a higher price could increase it.
+* **Necessities**: The demand for essential goods like salt or flour does not change significantly with price fluctuations.
+* **Emergency**: During emergencies like wars or famines, consumers may buy more even at higher prices out of fear of future shortages.
+* **Ignorance**: A consumer who is unaware of the market price might buy more of a good even when its price has gone up, mistakenly associating higher price with higher quality.
+* **Fashion**: If a commodity is in fashion, its demand might be high even at a high price. Conversely, if it goes out of fashion, demand falls even if the price drops.
+
+---
+
+## Reasons for the Law of Demand
+
+The demand curve slopes downward for several reasons:
+
+1.  **Law of Diminishing Marginal Utility**: As a person consumes more units of a commodity, the satisfaction (utility) from each additional unit decreases. Therefore, they will only be willing to buy more units at a lower price.
+2.  **Income Effect**: When the price of a commodity falls, the consumer's real income (purchasing power) increases. With this saved money, they can buy more of that commodity.
+3.  **Substitution Effect**: When the price of a commodity falls, it becomes relatively cheaper than its substitutes. Consumers will substitute the cheaper commodity for the more expensive one, increasing its demand.
+4.  **Number of Consumers**: A fall in price attracts new buyers who couldn't afford the commodity before. This increases the total market demand.
+5.  **Different Uses of a Commodity**: A commodity with multiple uses (like electricity) will be put to more uses when its price falls, leading to an increase in its overall demand.
+
+---
+
+## Change in Quantity Demanded vs. Change in Demand
+
+### Change in Quantity Demanded
+* **Cause**: A change in the **price of the commodity itself**.
+* **Effect**: A **movement along** the same demand curve.
+    * **Expansion of Demand**: Demand rises due to a fall in price.
+    * **Contraction of Demand**: Demand falls due to a rise in price.
+
+### Change in Demand
+* **Cause**: A change in **factors other than price** (income, tastes, etc.).
+* **Effect**: A **shift** of the entire demand curve.
+    * **Increase in Demand**: The curve shifts to the **right**.
+    * **Decrease in Demand**: The curve shifts to the **left**.
+
+---
+
+## Price Elasticity of Demand (Ed)
+
+Price elasticity of demand measures the degree of responsiveness of the quantity demanded to a change in the price of the commodity.
+
+$E_d = \frac{\text{\% Change in Quantity Demanded}}{\text{\% Change in Price}}$
+
+### Degrees of Price Elasticity
+
+1.  **Perfectly Inelastic Demand ($E_d = 0$)**: Quantity demanded does not change at all, regardless of the price change (e.g., salt). The demand curve is a **vertical line**.
+2.  **Less than Unit Elastic (Inelastic) ($E_d < 1$)**: The percentage change in quantity demanded is less than the percentage change in price.
+3.  **Unit Elastic Demand ($E_d = 1$)**: The percentage change in quantity demanded is exactly equal to the percentage change in price.
+4.  **More than Unit Elastic (Elastic) ($E_d > 1$)**: The percentage change in quantity demanded is more than the percentage change in price.
+5.  **Perfectly Elastic Demand ($E_d = \infty$)**: Consumers are prepared to buy all they can at a certain price, but none at all at a slightly higher price. The demand curve is a **horizontal line**.
+
+### Methods of Calculating Price Elasticity
+
+1.  **Percentage (Proportionate) Method**:
+    $E_d = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q}$
+    Where $\Delta Q$ is the change in quantity, $\Delta P$ is the change in price, $P$ is the initial price, and $Q$ is the initial quantity.
+
+2.  **Total Expenditure (Outlay) Method**:
+    * If price and total expenditure move in **opposite directions** (price falls, expenditure rises), demand is **elastic ($E_d > 1$)**.
+    * If price and total expenditure move in the **same direction** (price falls, expenditure falls), demand is **inelastic ($E_d < 1$)**.
+    * If total expenditure **remains constant** when the price changes, demand is **unit elastic ($E_d = 1$)**.
+
+3.  **Geometric (Point) Method**:
+    Used to measure elasticity at a specific point on a linear demand curve.
+    $E_d = \frac{\text{Lower Segment of the Demand Curve}}{\text{Upper Segment of the Demand Curve}}$
+
+# Elasticity of Demand
+
+## Point Elasticity on a Linear Demand Curve
+
+* **Elasticity of demand at point C** 
+    $E_d = \frac{CD}{CE}$ 
+    Elasticity of demand is less than unit. 
+
+* **Elasticity of demand at point E**
+    $E_d = \frac{CE}{CE} = 1$
+    (Elasticity of demand is unitary)
+
+* **Elasticity of demand at point D**
+    $E_d = \frac{CD}{0} = \infty$ 
+    Elasticity of demand is infinity or perfectly elastic. 
+
+* **Elasticity of demand at point B**
+    $E_d = \frac{0}{DE} = 0$ 
+    Elasticity of demand is zero or inelastic. 
+
+---
+
+## Factors Determining Elasticity of Demand / Determinants of Elasticity of Demand
+
+### 1. Availability of Close Substitute 
+When a commodity has a large number of close substitutes, demand for it is usually very elastic. For instance, demand for cold drinks like Coca Cola, Limca, Pepsi is generally elastic. On the other hand, the commodity which has no close substitute, generally, its demand is inelastic. For example, demand for salt is inelastic. 
+
+### 2. Share in Total Expenditure 
+Demand for a commodity is inelastic if the amount spent on the product constitutes a very small fraction of total expenditure. For example: Demand for matchbox, needle, salt etc. In case of high price items like car, AC etc. forming a major portion of total expenditure, elasticity of demand for such goods is likely to be high. 
+
+### 3. Habitual Necessities 
+Commodities in the habit of consumers have low price elasticity. For example, habituals' demand for cigarettes & liquor does not fall even if their prices go up. 
+
+### 4. Time Period 
+Generally, elasticity of demand for a commodity is more in the long run as compared to the one in the short run. The reason is that in the long period, consumers take much time to adjust themselves to new prices and to change their consumption habits. 
+
+### 5. Nature of commodity 
+Elasticity of demand for necessaries is very low or inelastic. They are purchased even though their prices go up. For example, Demand for foodgrains, salt, textbooks is inelastic. On the other hand, demand for luxuries has elastic demand. For example, Demand for Cars, mobile phones has elastic demand. 
+
+---
+
+## Practical Significance of Elasticity of Demand
+
+### (a) To a monopolist 
+A monopolist usually fixes the price himself and leaves the supply to be determined by the demand of the consumers. If the demand of his product is very elastic, he will keep the price low to earn maximum monopoly profit. On the other hand, if demand is inelastic, he fixes a higher price and sells a slightly smaller quantity. Thus, the concept of elasticity of demand is of great practical significance to a monopolist. 
+
+### (b) To a Finance Minister 
+The concept is equally important in its policy of taxation. While levying taxes, the Finance Minister takes into consideration the elasticity of demand for the commodities on which taxes are being imposed. High rates of taxation on goods with inelastic demand brings higher amount of revenues whereas the same on goods having elastic demand may not fetch the desired revenues of the government. 
+
+### (c) Useful in Factor Pricing 
+The concept helps in explaining the relative reward of factors of production in the production process. The factors which have inelastic demand for them are able to get a higher price than factors having elastic demand. 
+
+### (d) Useful in International Trade 
+The knowledge of elasticity of demand has importance in many spheres of international trade. India, for example, can obtain better and higher prices for tea from its exports if the latter's demand for Indian tea is inelastic. Thus, terms of international trade are determined by elasticity of demand for each other's product. 
+
+### (e) Explanation of the paradox of poverty of farmers 
+It is generally said that a good harvest, instead of bringing riches, fetches poverty to the farmers. This is known as paradox of poverty which is explained by the concept of elasticity of demand. For instance, a rich harvest of an agricultural product, say wheat, whose demand is inelastic, may ultimately fetch less price due to the simple reason that the increased production of wheat has led to fall in market price. 
+
+---
+
+## Arc Elasticity
+
+
+Arc elasticity shows the responsiveness to price change over some definite portion between two points on a demand curve. An Arc is the portion between two points on a demand curve. The portion between two points A and C on the demand curve DD is called an Arc. The elasticity obtained when mid point or average price and quantity are used is called the Arc Elasticity. 
+
+**Formula:**
+$E_d = \frac{\text{Change in Quantity}}{\text{(Sum of Quantities)}} \div \frac{\text{Change in Price}}{\text{(Sum of Prices)}}$ 
+
+$E_d = \frac{\Delta q}{\frac{1}{2}(q_1+q)} \div \frac{\Delta P}{\frac{1}{2}(P_1+P)}$ 
+$E_d = \frac{\Delta q}{\Delta P} \times \frac{\frac{1}{2}(P_1+P)}{\frac{1}{2}(q_1+q)}$ 
+$E_d = \frac{\Delta q}{\Delta p} \times \frac{P_1+P}{q_1+q}$ (Note: source document has a typo P1+P in the denominator here, corrected based on the previous formula)
+
+Where:
+* $q$ = Initial Demand 
+* $q_1$ = New Demand 
+* $P$ = Initial Price 
+* $P_1$ = New Price 
+
+According to the arc elasticity method, if the price of a good rises or falls in the same ratio and consequently demand also contracts and extends in the same ratio, then elasticity of demand will remain the same. But if the percentage method is used, then elasticity of demand will be different. Arc elasticity method is, therefore, more realistic and dependable method than percentage elasticity method. 
+
+---
+
+## Income Elasticity of Demand 
+
+### Definition
+According to Watson, "Income elasticity of demand means the ratio of the percentage change in the quantity demanded to the percentage change in income." 
+According to Lipsey, "The responsiveness of demand to change in income is termed as income elasticity of demand." 
+
+**Formula:**
+$E_y = \frac{\text{Proportionate or Percentage Change in Quantity Demanded}}{\text{Proportionate or Percentage change in Income}}$ 
+
+$E_y = \frac{\Delta q}{q} \div \frac{\Delta Y}{Y} = \frac{\Delta q}{\Delta Y} \times \frac{Y}{q}$
+
+Where:
+* $q$ = Initial Demand 
+* $\Delta q$ = Change in Demand
+* $Y$ = Initial Income 
+* $\Delta Y$ = Change in Income 
+
+### Degrees or Types of Income Elasticity of Demand 
+Income elasticity of demand is of three types: 
+
+#### 1. Positive Income Elasticity of Demand 
+Income elasticity of demand for a good is positive when with an increase in the income of a consumer his demand for the good increases, and with a decrease in income, his demand for the good decreases. Income elasticity of demand is positive in the case of normal goods. 
+
+ 
+
+Positive income elasticity of demand can be of three types: 
+* **(a) Unitary Income Elasticity of Demand:** When a given percentage change in income is followed by an equal percentage change in demand. 
+* **(b) Less than Unitary Income Elasticity of Demand:** When the percentage change in demand is less than the percentage change in income. 
+* **(c) More than Unitary Income Elasticity of Demand:** When the percentage change in demand is more than the percentage change in income. 
+
+#### 2. Negative Income Elasticity of Demand 
+Income elasticity of Demand is negative when an increase in the income of the consumer is accompanied by a fall in demand for a good, and a decrease in income is followed by a rise in demand. Negative income elasticity refers to inferior goods. For example, income elasticity of demand for toned milk, coarse grains etc., is negative. 
+
+ 
+
+#### 3. Zero Income Elasticity of Demand 
+Income elasticity of demand is zero when a change in the income of a consumer evokes no change in his demand. Demand for necessaries like kerosene oil, salt, etc., has zero income elasticity of demand. 
+
+ 
+
+---
+
+## Cross Elasticity of Demand 
+
+### Definition
+Cross elasticity of demand is a measure of the proportionate change in the quantity demanded of good X, as a result of a proportionate change in the price of good Y. 
+
+In the words of Ferguson, "The cross elasticity of demand is the proportional change in the quantity demanded of good X divided by the proportional change in the price of the related good Y." 
+
+**Formula:**
+$E_c = \frac{\text{Proportionate or Percentage Change in Quantity Demanded of Good X}}{\text{Proportionate or Percentage Change in Price of Good Y}}$ 
+
+$E_c = \frac{\frac{\Delta q_x}{q_x} \times 100}{\frac{\Delta P_y}{P_y} \times 100} = \frac{\Delta q_x}{\Delta P_y} \times \frac{P_y}{q_x}$ 
+
+Where:
+* $E_c$ = Cross Elasticity of Demand 
+* $\Delta Q_x$ = Change in the quantity demanded of X 
+* $q_x$ = Original quantity demanded of X 
+* $\Delta P_y$ = Change in price of good Y 
+* $P_y$ = Original Price of good Y 
+
+### Types of Cross Elasticity of Demand
+
+#### (i) Positive Cross Elasticity
+A given percentage rise in the price of a good leads to a given percentage increase in the demand for the substitute good. For example, a rise in the price of tea will lead to an increase in demand for coffee because the two are close substitutes of each other. 
+
+ 
+
+#### (ii) Negative Cross Elasticity
+Cross elasticity of demand is negative in the case of complementary goods. In the case of complementary goods (jointly demanded goods), a proportionate rise in the price of one leads to a proportionate fall in the demand for the other. Consequently, cross elasticity of demand is negative and the same is indicated by putting a minus (-) sign before the number of Cross elasticity of Demand. For example, a rise in the price of a car will bring down the demand for petrol. 
+
+
+#### (iii) Zero Cross Elasticity of Demand 
+Cross elasticity of demand is zero when two goods are not related to each other. For example, a rise in the price of wheat will have no effect on the demand for books. Their cross elasticity of demand will be called zero.
