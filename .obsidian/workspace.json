@@ -8,105 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "69d58eab4b6ed3a1",
+            "id": "3945fd24ffc4aa25",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "eco/2. Cardinal and Ordinal Utility.md",
-                "mode": "source",
-                "source": false
+                "file": "malware/ppt1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2. Cardinal and Ordinal Utility"
+              "icon": "lucide-file-text",
+              "title": "ppt1"
             }
           },
           {
-            "id": "43b119b5837ac0c5",
+            "id": "414a9220fc5f2078",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/1. Intro to Microeconomics.md",
+                "file": "malware/midsem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Intro to Microeconomics"
-            }
-          },
-          {
-            "id": "fe04302e8852d23a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "eco/3. Demand.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Demand"
-            }
-          },
-          {
-            "id": "f1f4c947ae872ea6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "eco/4. Production.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Production"
-            }
-          },
-          {
-            "id": "07e85e2ef78eec24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "eco/5. Supply.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Supply"
-            }
-          },
-          {
-            "id": "86d8fe29fdeb33fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "eco/6. Market.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6. Market"
+              "title": "midsem"
             }
           },
           {
             "id": "f9f7a5dc9cfc3145",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "eco/6. Market.md",
-                "mode": "source",
-                "source": false
+                "file": "malware/ppt2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "6. Market"
+              "icon": "lucide-file-text",
+              "title": "ppt2"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "eco/6. Market.md",
+                "file": "malware/ppt2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 6. Market"
+              "title": "Backlinks for ppt2"
             }
           },
           {
@@ -198,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "eco/6. Market.md",
+                "file": "malware/ppt2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 6. Market"
+              "title": "Outgoing links from ppt2"
             }
           },
           {
@@ -227,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eco/6. Market.md",
+                "file": "malware/ppt2.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6. Market"
+              "title": "Outline of ppt2"
             }
           }
         ]
@@ -255,37 +195,38 @@
   },
   "active": "f9f7a5dc9cfc3145",
   "lastOpenFiles": [
-    "eco/Balance of Payment.md",
+    "malware/ppt1.pdf",
+    "malware/midsem.md",
+    "malware/ppt2.pdf",
+    "malware/midsem.pdf",
+    "attachments/Pasted image 20250922043732.png",
     "eco/6. Market.md",
+    "attachments/Pasted image 20250922014444.png",
+    "attachments/Pasted image 20250922014437.png",
+    "attachments/Pasted image 20250922014055.png",
+    "attachments/Pasted image 20250922014045.png",
+    "attachments/Pasted image 20250922014037.png",
+    "attachments/Pasted image 20250922014020.png",
+    "eco/Money Definition Functions and Supply of Money.pdf",
+    "eco/Commercial Banks and Central Bank.pdf",
+    "eco/Exchange rate q.md",
+    "eco/Balance of Payment.md",
     "eco/5. Supply.md",
     "eco/6. Tools of Monetary Policy.md",
     "eco/2. Cardinal and Ordinal Utility.md",
-    "eco/Money Definition Functions and Supply of Money.pdf",
     "eco/4. Production.md",
     "eco/3. Demand.md",
     "attachments/Pasted image 20250921200929.png",
     "attachments/Pasted image 20250921200915.png",
     "attachments/Pasted image 20250921200824.png",
-    "attachments/Pasted image 20250921200758.png",
-    "attachments/Pasted image 20250921200722.png",
-    "attachments/Pasted image 20250921200300.png",
-    "attachments/Pasted image 20250921194911.png",
-    "attachments/Pasted image 20250921193703.png",
-    "attachments/Pasted image 20250921193642.png",
-    "attachments/Pasted image 20250921193423.png",
-    "malware/ppt2.pdf",
-    "malware/ppt1.pdf",
-    "malware/midsem.pdf",
     "malware/ppt2.ppt",
     "malware/ppt1.pptx",
     "malware/ch0-1.pptx",
     "malware/Malware.ppt",
     "Malware Analysis.md",
     "eco/1. Intro to Microeconomics.md",
-    "eco/Commercial Banks and Central Bank.pdf",
     "dist/Chapter 3.md",
     "dist/Chapter 1.md",
-    "eco/Exchange rate q.md",
     "eco",
     "dist/Chapter 2.md"
   ]
