@@ -39,14 +39,28 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "malware/ppt2.pdf"
+                "file": "eco/unit2 pdf.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ppt2"
+              "title": "unit2 pdf"
+            }
+          },
+          {
+            "id": "54eea224edd5831a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eco/Unit 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unit 2"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "malware/ppt2.pdf",
+                "file": "eco/unit2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ppt2"
+              "title": "Backlinks for unit2"
             }
           },
           {
@@ -138,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "malware/ppt2.pdf",
+                "file": "eco/unit2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ppt2"
+              "title": "Outgoing links from unit2"
             }
           },
           {
@@ -167,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "malware/ppt2.pdf",
+                "file": "eco/unit2.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ppt2"
+              "title": "Outline of unit2"
             }
           }
         ]
@@ -185,6 +199,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -193,41 +208,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9f7a5dc9cfc3145",
+  "active": "54eea224edd5831a",
   "lastOpenFiles": [
-    "malware/ppt1.pdf",
-    "malware/midsem.md",
-    "malware/ppt2.pdf",
-    "malware/midsem.pdf",
-    "attachments/Pasted image 20250922043732.png",
+    "attachments/Pasted image 20250923032011.png",
+    "eco/unit2 pdf.pdf",
     "eco/6. Market.md",
-    "attachments/Pasted image 20250922014444.png",
-    "attachments/Pasted image 20250922014437.png",
-    "attachments/Pasted image 20250922014055.png",
-    "attachments/Pasted image 20250922014045.png",
-    "attachments/Pasted image 20250922014037.png",
-    "attachments/Pasted image 20250922014020.png",
+    "eco/Balance of Payment.md",
+    "eco/Unit 2.md",
+    "eco/Exchange rate q.md",
     "eco/Money Definition Functions and Supply of Money.pdf",
     "eco/Commercial Banks and Central Bank.pdf",
-    "eco/Exchange rate q.md",
-    "eco/Balance of Payment.md",
+    "malware/ppt1.pdf",
+    "attachments/Pasted image 20250923024646.png",
+    "attachments/Pasted image 20250923021639.png",
+    "attachments/Pasted image 20250923020655.png",
+    "attachments/Pasted image 20250923020646.png",
+    "attachments/Pasted image 20250923020635.png",
+    "attachments/Pasted image 20250923015752.png",
+    "attachments/Pasted image 20250923014446.png",
+    "dist/Chapter 3.md",
+    "dist/Chapter 2.md",
+    "malware/ppt2.pdf",
+    "malware/midsem.md",
+    "malware/midsem.pdf",
+    "attachments/Pasted image 20250922043732.png",
+    "attachments/Pasted image 20250922014444.png",
+    "attachments/Pasted image 20250922014437.png",
     "eco/5. Supply.md",
     "eco/6. Tools of Monetary Policy.md",
     "eco/2. Cardinal and Ordinal Utility.md",
     "eco/4. Production.md",
     "eco/3. Demand.md",
-    "attachments/Pasted image 20250921200929.png",
-    "attachments/Pasted image 20250921200915.png",
-    "attachments/Pasted image 20250921200824.png",
     "malware/ppt2.ppt",
     "malware/ppt1.pptx",
     "malware/ch0-1.pptx",
     "malware/Malware.ppt",
     "Malware Analysis.md",
     "eco/1. Intro to Microeconomics.md",
-    "dist/Chapter 3.md",
-    "dist/Chapter 1.md",
-    "eco",
-    "dist/Chapter 2.md"
+    "dist/Chapter 1.md"
   ]
 }
