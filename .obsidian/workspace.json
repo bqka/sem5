@@ -8,59 +8,105 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3945fd24ffc4aa25",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "malware/ppt1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ppt1"
-            }
-          },
-          {
-            "id": "414a9220fc5f2078",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "malware/midsem.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "midsem"
-            }
-          },
-          {
             "id": "f9f7a5dc9cfc3145",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "eco/unit2 pdf.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "unit2 pdf"
-            }
-          },
-          {
-            "id": "54eea224edd5831a",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/Unit 2.md",
+                "file": "eco/Unit 2/2.2 Money.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unit 2"
+              "title": "2.2 Money"
+            }
+          },
+          {
+            "id": "85bdaa2c081f5167",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eco/Unit 2/2.3 Banks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.3 Banks"
+            }
+          },
+          {
+            "id": "8c3596816ca0b901",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eco/Unit 2/2.3 Banks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.3 Banks"
+            }
+          },
+          {
+            "id": "5013c2a9b4daf023",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eco/Unit 2/2.4 Foreign Exchange.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.4 Foreign Exchange"
+            }
+          },
+          {
+            "id": "9522158addca736b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eco/Unit 2/2.1 Market.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.1 Market"
+            }
+          },
+          {
+            "id": "ce2791b0ab348dcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eco/Unit 2/2.3 Banks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.3 Banks"
+            }
+          },
+          {
+            "id": "925fd96afd400307",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eco/Unit 1/1.3 Demand.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.3 Demand"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -208,43 +254,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54eea224edd5831a",
+  "active": "38b43c113a196bbf",
   "lastOpenFiles": [
-    "attachments/Pasted image 20250923032011.png",
-    "eco/unit2 pdf.pdf",
-    "eco/6. Market.md",
+    "eco/Unit 1/1.1 Intro to Microeconomics.md",
+    "eco/Unit 2/2.2 Money.md",
+    "eco/Unit 2",
+    "eco/Unit 1",
     "eco/Balance of Payment.md",
-    "eco/Unit 2.md",
+    "eco/Unit 2/2.4 Foreign Exchange.md",
+    "eco/Unit 2/2.5 Extra.md",
+    "eco/Unit 2/2.3 Banks.md",
+    "eco/Unit 2/unit2 pdf.pdf",
+    "eco/Unit 1/1.5 Production.md",
+    "eco/Unit 2/2.1 Market.md",
+    "eco/Unit 1/1.4 Supply.md",
+    "eco/Unit 1/1.3 Demand.md",
+    "eco/Unit 1/1.2 Cardinal and Ordinal Utility.md",
+    "attachments/Pasted image 20250923100848.png",
+    "attachments/Pasted image 20250923100652.png",
+    "attachments/Pasted image 20250923100642.png",
+    "attachments/Pasted image 20250923085546.png",
+    "attachments/Pasted image 20250923085127.png",
+    "attachments/Pasted image 20250923084945.png",
     "eco/Exchange rate q.md",
+    "attachments/Pasted image 20250923082022.png",
+    "attachments/Pasted image 20250923072941.png",
+    "attachments/Pasted image 20250923041145.png",
+    "attachments/Pasted image 20250923041129.png",
     "eco/Money Definition Functions and Supply of Money.pdf",
     "eco/Commercial Banks and Central Bank.pdf",
     "malware/ppt1.pdf",
-    "attachments/Pasted image 20250923024646.png",
-    "attachments/Pasted image 20250923021639.png",
-    "attachments/Pasted image 20250923020655.png",
-    "attachments/Pasted image 20250923020646.png",
-    "attachments/Pasted image 20250923020635.png",
-    "attachments/Pasted image 20250923015752.png",
-    "attachments/Pasted image 20250923014446.png",
     "dist/Chapter 3.md",
     "dist/Chapter 2.md",
     "malware/ppt2.pdf",
     "malware/midsem.md",
     "malware/midsem.pdf",
-    "attachments/Pasted image 20250922043732.png",
-    "attachments/Pasted image 20250922014444.png",
-    "attachments/Pasted image 20250922014437.png",
-    "eco/5. Supply.md",
     "eco/6. Tools of Monetary Policy.md",
-    "eco/2. Cardinal and Ordinal Utility.md",
-    "eco/4. Production.md",
-    "eco/3. Demand.md",
     "malware/ppt2.ppt",
     "malware/ppt1.pptx",
-    "malware/ch0-1.pptx",
-    "malware/Malware.ppt",
     "Malware Analysis.md",
-    "eco/1. Intro to Microeconomics.md",
     "dist/Chapter 1.md"
   ]
 }
