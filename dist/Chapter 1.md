@@ -96,7 +96,7 @@ There are many reasons for wanting to share resources. One obvious reason is tha
 
 **Failure transparency** allows a system to mask failures so that users don’t experience disruptions when parts of the system stop working. For instance, if one server in a video streaming service crashes, another replica server can take over so playback continues smoothly. However, distinguishing between a slow server and a failed one remains a hard challenge in practice.
 
-	 **Degree of Distribution Transparency**
+ **Degree of Distribution Transparency**
 
 Although distribution transparency is generally considered preferable for any
 distributed system, there are situations in which attempting to blindly hide
