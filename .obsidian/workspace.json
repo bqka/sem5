@@ -183,8 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2063b2724063451",
+  "active": "38b43c113a196bbf",
   "lastOpenFiles": [
+    "ins/ins midterm.pdf",
+    "ins",
+    "New folder",
     "attachments/Pasted image 20250925001710.png",
     "attachments/Pasted image 20250925001607.png",
     "attachments/Pasted image 20250925001232.png",
@@ -198,7 +201,6 @@
     "dist/Chapter 2.md",
     "dist/Chapter 4.md",
     "attachments/Pasted image 20250924234639.png",
-    "attachments/Pasted image 20250924234324.png",
     "dist/Chapter 1.md",
     "dist/Chapter 3.md",
     "eco/Unit 2/2.5 Extra.md",
@@ -222,8 +224,6 @@
     "malware/midsem.md",
     "malware/midsem.pdf",
     "eco/6. Tools of Monetary Policy.md",
-    "malware/ppt2.ppt",
-    "malware/ppt1.pptx",
     "Malware Analysis.md"
   ]
 }
