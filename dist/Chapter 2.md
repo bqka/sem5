@@ -80,6 +80,8 @@ Content Addressable Network (CAN)
 
 ### Collaborative Distributive Systems
 
+![[Pasted image 20250926085105.png]]
+
 example 1 bittorrent
 ![[Pasted image 20250920010855.png]]
 BitTorrent is a peer-to-peer file downloading system. Its principal working is shown in Fig. 2-14 The basic idea is that when an end user is looking for a file, he downloads chunks of the file from other users until the downloaded chunks can be assembled together yielding the complete file

@@ -14,8 +14,7 @@ applications) believe they are dealing with a single system.
 ![[Pasted image 20250919005522.png]]
 ![[Pasted image 20250919005501.png]]
 
-Concerning the organization of the collection, practice shows that a dis-
-tributed system is often organized as an overlay network. Types -
+Concerning the organization of the collection, practice shows that a distributed system is often organized as an overlay network. Types -
 
 Structured overlay: In this case, each node has a well-defined set of neighbors
 with whom it can communicate. For example, the nodes are organized
@@ -70,13 +69,14 @@ A distributed system should make resources easily accessible; it should hide the
 fact that resources are distributed across a network; it should be open; and it
 should be scalable.
 
-- **Supporting resource sharing**
+#### Supporting resource sharing
+
 Resources can be virtually anything, but typical examples include peripherals, storage facilities, data, files, services, and networks, to name just a few.
 There are many reasons for wanting to share resources. One obvious reason is that of economics. For example, it is cheaper to have a single high-end reliable storage facility be shared than having to buy and maintain storage for each user separately.
 ![[Pasted image 20250919012722.png]]
 ![[Pasted image 20250919012752.png]]
 
-- **Making distribution transparent**
+#### Making distribution transparent
 
 ![[Pasted image 20250919012836.png]]
 
@@ -96,24 +96,17 @@ There are many reasons for wanting to share resources. One obvious reason is tha
 
 **Failure transparency** allows a system to mask failures so that users don’t experience disruptions when parts of the system stop working. For instance, if one server in a video streaming service crashes, another replica server can take over so playback continues smoothly. However, distinguishing between a slow server and a failed one remains a hard challenge in practice.
 
- **Degree of Distribution Transparency**
+ #### **Degree of Distribution Transparency**
 
-Although distribution transparency is generally considered preferable for any
-distributed system, there are situations in which attempting to blindly hide
-all distribution aspects from users is not a good idea
+Although distribution transparency is generally considered preferable for any distributed system, there are situations in which attempting to blindly hide all distribution aspects from users is not a good idea
 
-There is also a trade-off between a high degree of transparency and the
-performance of a system.
-For example, many Internet applications repeatedly try to contact a server before finally giving up. Consequently, attempting to mask a transient server failure before trying another one may slow down the system as a whole. In such a case, it may have been better to give up earlier,
-or at least let the user cancel the attempts to make contact.
+There is also a trade-off between a high degree of transparency and the performance of a system. For example, many Internet applications repeatedly try to contact a server before finally giving up. Consequently, attempting to mask a transient server failure before trying another one may slow down the system as a whole. In such a case, it may have been better to give up earlier, or at least let the user cancel the attempts to make contact.
 
-The conclusion is that aiming for distribution transparency may be a
-nice goal when designing and implementing distributed systems, but that
-it should be considered together with other issues such as performance
-and comprehensibility. The price for achieving full transparency may be
+The conclusion is that aiming for distribution transparency may be a nice goal when designing and implementing distributed systems, but that it should be considered together with other issues such as performance and comprehensibility. The price for achieving full transparency may be
 surprisingly high.
+ 
+#### Being open
 
-- **Being open**
 Another important goal of distributed systems is openness. An open dis-
 tributed system is essentially a system that offers components that can easily
 be used by, or integrated into other systems. At the same time, an open
@@ -131,10 +124,11 @@ elsewhere.
     - **Portability**: applications developed for one system can run on another system that implements the same interfaces.
 - An open distributed system should also support **extensibility**, meaning new components can be added, existing ones replaced, or even entire subsystems (such as a file system) swapped out, all without disrupting the rest of the system.
 
-- **Being Scalable**
+#### Being Scalable
 
 ![[Pasted image 20250919203806.png]]
 
+**Limitations**
 centralized services - bottleneck for growing users and application
 centralized data - single database would undoubtedly saturate all the communication lines into and out of it (imagine if dns was a single table)
 centralized algo - algorithm that operates by collecting information from
@@ -212,7 +206,7 @@ When any transaction or subtransaction starts, it is conceptually given a privat
 ![[Pasted image 20250919222017.png]]
 ![[Pasted image 20250919222657.png]]
 
-# Distributed Pervasive Systems
+## Distributed Pervasive Systems
 
 ![[Pasted image 20250919222932.png]]
 

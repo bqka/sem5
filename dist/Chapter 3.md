@@ -60,6 +60,7 @@ Light Weight Processes (LWP)
 ### General Design Issues
 ![[Pasted image 20250920193911.png|500]]
 ![[Pasted image 20250920194639.png]]
+
 ![[Pasted image 20250920194706.png]]
 ![[Pasted image 20250920194814.png]]
 
@@ -70,7 +71,6 @@ a **daemon** is a background process that runs continuously and performs specifi
 3. **Service-Oriented** – Provides services to other programs or system components, e.g., network services, logging, printing.
 4. **Long-Lived** – Often runs indefinitely, waiting for events or requests.
 ![[Pasted image 20250920194118.png]]
-
 ### Server Clusters
 
 ![[Pasted image 20250920200508.png]]

@@ -115,7 +115,6 @@ Many distributed systems and applications are built directly on top of the simpl
 ![[Pasted image 20250924205257.png]]
 
 time-dependent information
-
 ### Support for Continuous Media
 
 ![[Pasted image 20250924205422.png]]

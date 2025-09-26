@@ -24,7 +24,10 @@ delay
 
 Here the time server (actually, a time daemon) is active, polling every machine from time to time to ask what time it is there. Based on the answers, it computes an average time and tells all the other machines to advance their clocks to the new time or slow their clocks down until some specified reduction has been achieved. This method is suitable for a system in which no machine has a WWV receiver. The time daemon's time must be set manually by the operator periodically.
 
+![[Pasted image 20250926115133.png]]
 #### Clock Synchronization in Wireless Networks
+
+Reference broadcast synchronization (RBS)
 
 ![[Pasted image 20250925222906.png|600]]
 ![[Pasted image 20250925222845.png]]
