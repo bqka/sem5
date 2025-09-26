@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2063b2724063451",
+            "id": "c11337fdd88b20af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,20 +22,21 @@
             }
           },
           {
-            "id": "c11337fdd88b20af",
+            "id": "ee6e6f13b6eda6ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dist/Chapter 2.md",
+                "file": "dist/Chapter 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 2"
+              "title": "Chapter 6"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,25 +184,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38b43c113a196bbf",
+  "active": "ee6e6f13b6eda6ae",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250926062040.png",
+    "attachments/Pasted image 20250926061914.png",
+    "attachments/Pasted image 20250926061847.png",
+    "attachments/Pasted image 20250926061434.png",
+    "attachments/Pasted image 20250926060915.png",
+    "attachments/Pasted image 20250926060800.png",
+    "attachments/Pasted image 20250926060646.png",
+    "attachments/Pasted image 20250926060430.png",
+    "attachments/Pasted image 20250926060417.png",
+    "attachments/Pasted image 20250926060326.png",
+    "attachments/Pasted image 20250926060212.png",
+    "dist/Chapter 6.md",
+    "dist/Chapter 1.md",
+    "dist/Chapter 2.md",
+    "dist/Chapter 4.md",
+    "ins/ssl.pdf",
     "ins/ins midterm.pdf",
     "ins",
     "New folder",
-    "attachments/Pasted image 20250925001710.png",
-    "attachments/Pasted image 20250925001607.png",
-    "attachments/Pasted image 20250925001232.png",
-    "attachments/Pasted image 20250925001145.png",
-    "attachments/Pasted image 20250925000152.png",
-    "attachments/Pasted image 20250924235816.png",
-    "attachments/Pasted image 20250924235807.png",
-    "attachments/Pasted image 20250924235751.png",
-    "attachments/Pasted image 20250924235213.png",
     "eco/Unit 1/1.1 Intro to Microeconomics.md",
-    "dist/Chapter 2.md",
-    "dist/Chapter 4.md",
-    "attachments/Pasted image 20250924234639.png",
-    "dist/Chapter 1.md",
     "dist/Chapter 3.md",
     "eco/Unit 2/2.5 Extra.md",
     "eco/Unit 2/2.4 Foreign Exchange.md",
@@ -220,9 +224,7 @@
     "eco/Money Definition Functions and Supply of Money.pdf",
     "eco/Commercial Banks and Central Bank.pdf",
     "malware/ppt1.pdf",
-    "malware/ppt2.pdf",
     "malware/midsem.md",
-    "malware/midsem.pdf",
     "eco/6. Tools of Monetary Policy.md",
     "Malware Analysis.md"
   ]
