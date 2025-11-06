@@ -113,3 +113,5 @@ Reference broadcast synchronization (RBS)
 ![[Pasted image 20250926061847.png|500]]
 
 ![[Pasted image 20250926062040.png]]
+
+$$\begin{array}{|c|c|} \hline \text{ABC} & \text{XYZ-12} \\ \hline \multicolumn{2}{|c|}{\text{XYZ-12}} \\ \hline \end{array}$$
