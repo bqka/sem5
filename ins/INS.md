@@ -1,5 +1,7 @@
 # **Feistel Cipher**
 
+![[Pasted image 20251124104846.png]]
+
 ### **1. Basic Idea**
 
 A Feistel cipher splits the plaintext block into two halves called Left (L) and Right (R).  
