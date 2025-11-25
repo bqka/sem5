@@ -92,7 +92,7 @@
 ### Average Total Cost (ATC)
 * **Definition:** It is the per-unit cost of production of a commodity.
 * **Formula:** It is calculated by dividing the total cost by the number of units produced.
-    > ATC = TC / [No. of units produced]
+    > ATC = TC / No. of units produced
 
 ---
 
