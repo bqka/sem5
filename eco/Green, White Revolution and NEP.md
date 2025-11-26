@@ -1,9 +1,3 @@
-# 🌾 Green Revolution and New Industrial Policy (NEP) 1991
-
-This document summarizes the key information regarding the Green Revolution and the New Industrial Policy of 1991 in India, based on the provided text.
-
----
-
 ## 🚜 Green Revolution (New Agricultural Strategy)
 
 The Green Revolution, or the new strategy for agricultural development, was implemented for the first time in India in **1966-67**. It aimed at securing a rapid increase in **food production** in the shortest possible time.
@@ -45,6 +39,61 @@ The Green Revolution pushed up the level of income in the rural sector due to in
 
 ---
 
+## 🥛 **White Revolution (New Dairy Development Strategy)**
+
+The **White Revolution**, also known as the new strategy for dairy development, began in India with the launch of **Operation Flood in 1970**.  
+Its main objective was to achieve a rapid increase in **milk production** and to create a nationwide system for milk procurement, processing, and distribution.
+
+---
+
+# **Key Components**
+ The strategy was based on the use of:
+- **Dairy Cooperatives:** Formation of village-level milk producers’ cooperatives to collect and market milk in an organized manner.
+- **Modern Dairy Technology:** Use of improved cattle breeds, artificial insemination, veterinary services, cattle feed, and modern processing and pasteurization facilities.
+
+---
+
+# **Effects of the White Revolution**
+
+The effects can be grouped into **Economic Effects** and **Sociological Impact**.
+
+## **1. Economic Effects**
+
+The two most important economic effects were a sharp rise in milk production and an expansion of the dairy industry.
+
+- **Increase in Milk Production:**  
+    There was a significant rise in India’s milk production after Operation Flood.  
+    _India became the largest milk producer in the world._
+    - **Initial Focus:** In the early stages, the main gains were concentrated in states like **Gujarat, Punjab, and Haryana** where cooperatives were strong.
+    - **Second Phase:** In the later phases, the revolution spread to other states, improving production of milk and milk products while maintaining the growth already achieved in leading states.
+- **Expansion of Dairy Infrastructure:**  
+    The rapid increase in production was supported by modern dairy plants, chilling centers, cold-storage chains, and veterinary health services.  
+    The organized dairy sector, including **AMUL**, expanded rapidly.
+
+---
+
+## **2. Sociological Impact**
+
+The White Revolution raised the level of income in the rural sector by providing farmers with daily cash income from milk sales. However, it also had two notable features:
+
+- **Reduction of Rural Poverty but Unequal Gains:**  
+    Although rural incomes increased, the benefits were not evenly distributed.
+    - Farmers with better cattle breeds and more resources benefitted more.
+    - Small and marginal farmers sometimes lacked access to quality inputs.
+- **Regional Disparities:**  
+    The development was uneven across regions—a result of shifting from a policy of “some support everywhere” to “intensive support in selected areas.”  
+    Differences in cooperative strength, veterinary services, fodder availability, and access to technology led to varying rates of growth among states.
+
+---
+
+# **Criticism of the White Revolution**
+
+- In its initial stages, it benefited mainly cooperative-dominant regions; progress in backward and tribal areas was slow.
+- A large percentage of farmers still lack access to quality fodder, veterinary services, and improved cattle breeds.
+- Average milk yield per animal remains lower than in many advanced dairy-producing countries.
+- Issues such as inadequate cold-chain facilities and fluctuating market prices continue to affect farmers.
+
+---
 ## 🏛️ New Industrial Policy (NEP) 1991
 
 The government announced a New Industrial Policy on **July 24, 1991**, marking a sharp departure from the Industrial Policy Resolution of 1956. Its basic philosophy was summed up as **"Continuity with change"**.

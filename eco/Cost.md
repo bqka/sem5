@@ -46,16 +46,17 @@
 
 > **Key Note:** Fixed costs are available only in the short run. In the long run, all costs are variable.
 
+![[Pasted image 20251126224705.png|400]]
 ### Comparison: Fixed vs. Variable Cost
 
-| BASIS | FIXED COST | VARIABLE COST |
-| :--- | :--- | :--- |
-| **Changes Acc. to Prod[uction]** | Fixed cost does not increase or decrease with an increase or decrease in the level of prod[uction]. | It inc[reases] or decreases with an inc[rease] or decrease in the level of prod[uction]. |
-| **Changes Acc. to Period** | It can't change during a short period. | It can be changed during the short period. |
-| **Curve** | The Fixed Cost Curve is 11 [parallel] to X-axis. | Variable Cost Curve is upward sloping. |
-| **Zero at Zero Level [of Output]**| Fixed Cost can't be zero, even when prod[uction] is stopped. | Variable cost is zero when prod[uction] is stopped. |
-| **Stopped or Continue [Prod.]** | Prod[uction] may continue even at the loss of fixed cost during the short period. | Prod[uction] will be stopped when [variable cost] is not met during the short period. |
-| **Examples** | Rent of factory, Salary of permanent employee, Insurance Premium. | Expenditure on purchase of raw material, power, fuel, wages of temporary labour. |
+| BASIS                              | FIXED COST                                                                                          | VARIABLE COST                                                                            |
+| :--------------------------------- | :-------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| **Changes Acc. to Prod[uction]**   | Fixed cost does not increase or decrease with an increase or decrease in the level of prod[uction]. | It inc[reases] or decreases with an inc[rease] or decrease in the level of prod[uction]. |
+| **Changes Acc. to Period**         | It can't change during a short period.                                                              | It can be changed during the short period.                                               |
+| **Curve**                          | The Fixed Cost Curve is 11 [parallel] to X-axis.                                                    | Variable Cost Curve is upward sloping.                                                   |
+| **Zero at Zero Level [of Output]** | Fixed Cost can't be zero, even when prod[uction] is stopped.                                        | Variable cost is zero when prod[uction] is stopped.                                      |
+| **Stopped or Continue [Prod.]**    | Prod[uction] may continue even at the loss of fixed cost during the short period.                   | Prod[uction] will be stopped when [variable cost] is not met during the short period.    |
+| **Examples**                       | Rent of factory, Salary of permanent employee, Insurance Premium.                                   | Expenditure on purchase of raw material, power, fuel, wages of temporary labour.         |
 
 ---
 
@@ -101,6 +102,10 @@
 * **Definition:** It is the addition to the Total Cost (TC) when an additional or extra unit of a commodity is produced.
 
 ---
+
+![[Pasted image 20251126224934.png|400]]
+
+![[Pasted image 20251126224946.png|400]]
 
 ## 7. Relationships Between Cost Curves
 
