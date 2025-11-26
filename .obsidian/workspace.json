@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eco/Cost.md",
+                "file": "eco/Marginal Costing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cost"
+              "title": "Marginal Costing"
+            }
+          },
+          {
+            "id": "c92a6c185f2f3224",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eco/Unit 2/2.5 Extra.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.5 Extra"
             }
           },
           {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,25 +226,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5fa15c8c57182d94",
+  "active": "c92a6c185f2f3224",
   "lastOpenFiles": [
+    "eco/Marginal Costing.md",
+    "eco/Sustainable Development.md",
+    "eco/FYP.md",
+    "eco/Unit 2/2.5 Extra.md",
+    "eco/Unit 2/2.4 Foreign Exchange.md",
+    "eco/Unit 2/2.3 Banks.md",
+    "eco/Cost.md",
+    "eco/Green, White Revolution and NEP.md",
     "eco/formulas.jpeg",
     "eco/Unit 2/formulas.jpeg",
-    "eco/Marginal Costing.md",
     "eco/Features of Indian Economy.md",
     "attachments/Pasted image 20251126233423.png",
-    "eco/Green, White Revolution and NEP.md",
-    "eco/Cost.md",
     "attachments/Pasted image 20251126224946.png",
     "attachments/Pasted image 20251126224934.png",
     "attachments/Pasted image 20251126224705.png",
     "eco/syllabus.jpeg",
-    "eco/Unit 2/2.5 Extra.md",
     "eco/Unit 2/2.2 Money.md",
     "eco/Unit 2/2.1 Market.md",
     "eco/Unit 1/1.2 Cardinal and Ordinal Utility.md",
     "eco/Unit 1/1.1 Intro to Microeconomics.md",
-    "Sustainable Development.md",
     "ins/ins midterm.pdf",
     "ins/post midsem.md",
     "ins/INS.md",
@@ -238,9 +255,6 @@
     "attachments/Pasted image 20251124104846.png",
     "attachments/Pasted image 20251124023610.png",
     "attachments/Pasted image 20251124021528.png",
-    "attachments/Pasted image 20251124021436.png",
-    "eco/Unit 2/2.4 Foreign Exchange.md",
-    "eco/Unit 2/2.3 Banks.md",
     "eco/Unit 1/1.5 Production.md",
     "eco/Unit 1/1.4 Supply.md",
     "eco/Unit 1/1.3 Demand.md",
