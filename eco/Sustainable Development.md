@@ -58,9 +58,3 @@ Scientists need to focus more on it as it can offer a real breakthrough to count
 (9) **Public Means of Transport:** Public means of transport are to be rapid, comfortable and economical. Example: Metro in Delhi, though its services are yet to percolate to all parts of the city. Such means of transport must be extended to the sub-urban areas as well. This will drastically cut the private vehicular traffic in and around the metro cities, which is a major source of environmental pollution, air and noise pollution in particular.
 
 Briefly, sustainable development is a process to be practised as a daily-life activity. It is not simply a specially designed programme or process of production. It is more about our awareness of the implications of what we are doing as producers and consumers. It is more about our concern for future generations and our social responsibilities. It involves **less of cost, and more of consciousness**. As producers, we are to be conscious of the fact that there could be environment-friendly techniques of production and environment-friendly techniques of disposal of the wastes. As consumers, we are to be conscious of the fact that there could be environment-friendly means of consumption and environment-friendly means of disposal of the garbage. Of course, the government should contribute its bit through enforcement of the laws relating to environment. Stressing our environment to serve us beyond its capacity would only mean reducing its capacity to serve us in the future. This is where the process of development fails to be sustainable.
-
----
-
-### 2.3 Measurement of Sustainable Development: Green Net National Income and Genuine Savings
-
-The measurement of sustainable development is done in terms of two different aggregates, viz., (1) green net national income, and (2) genuine savings. Following are the details.
