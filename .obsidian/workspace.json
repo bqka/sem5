@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dist/Chapter 8.md",
+                "file": "dist/Chapter 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 8"
+              "title": "Chapter 9"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dist/Chapter 7.md",
+                "file": "dist/Chapter 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 7"
+              "title": "Chapter 8"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,8 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3066b65e54d6d65",
+  "active": "02c537374e67950b",
   "lastOpenFiles": [
+    "dist/Chapter 7.md",
+    "dist/Chapter 9.md",
+    "dist/Chapter 8.md",
     "malware/mobile malware.pdf",
     "malware/windows registry.pdf",
     "malware/rev eng malware.pdf",
@@ -201,10 +205,7 @@
     "attachments/Pasted image 20251203232412.png",
     "attachments/Pasted image 20251203225441.png",
     "attachments/Pasted image 20251203225324.png",
-    "dist/Chapter 7.md",
-    "dist/Chapter 8.md",
     "dist/Chapter 5.md",
-    "dist/Chapter 9.md",
     "eco/Unit 1/1.1 Intro to Microeconomics.md",
     "eco/Marginal Costing.md",
     "eco/Features of Indian Economy.md",
@@ -228,7 +229,6 @@
     "ins/ssl.pdf",
     "eco/Unit 1/1.4 Supply.md",
     "eco/Unit 1/1.3 Demand.md",
-    "eco/Something",
     "dist/Chapter 4.md"
   ]
 }

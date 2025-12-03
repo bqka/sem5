@@ -564,3 +564,4 @@ In 3PC, if any participant is in READY:
 
 # Recovery
 
+gupta ki mkc bta ni rha karna h ya ni
