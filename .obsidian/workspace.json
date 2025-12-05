@@ -8,6 +8,48 @@
         "type": "tabs",
         "children": [
           {
+            "id": "31ed8248846e2e2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dist/Chapter 3.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 3"
+            }
+          },
+          {
+            "id": "d4ce5cf3d6bafe40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dist/Chapter 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 2"
+            }
+          },
+          {
+            "id": "57d1945434b787d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dist/Chapter 8.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 8"
+            }
+          },
+          {
             "id": "f3066b65e54d6d65",
             "type": "leaf",
             "state": {
@@ -19,20 +61,6 @@
               },
               "icon": "lucide-file",
               "title": "Chapter 9"
-            }
-          },
-          {
-            "id": "02c537374e67950b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dist/Chapter 8.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 8"
             }
           }
         ],
@@ -175,6 +203,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,11 +212,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02c537374e67950b",
+  "active": "d4ce5cf3d6bafe40",
   "lastOpenFiles": [
+    "dist/Chapter 3.md",
+    "dist/Chapter 5.md",
+    "dist/Chapter 4.md",
     "dist/Chapter 7.md",
-    "dist/Chapter 9.md",
     "dist/Chapter 8.md",
+    "dist/Chapter 2.md",
+    "dist/Chapter 1.md",
+    "dist/Chapter 6.md",
+    "dist/Chapter 9.md",
+    "attachments/Pasted image 20251205044044.png",
+    "attachments/Pasted image 20251205043920.png",
+    "attachments/Pasted image 20251205043853.png",
+    "attachments/Pasted image 20251205043359.png",
+    "attachments/Pasted image 20251205043132.png",
+    "attachments/Pasted image 20251205042218.png",
+    "attachments/Pasted image 20251205042209.png",
+    "attachments/Pasted image 20251205025705.png",
+    "attachments/Pasted image 20251205025650.png",
+    "attachments/Pasted image 20251205025554.png",
+    "Untitled.md",
     "malware/mobile malware.pdf",
     "malware/windows registry.pdf",
     "malware/rev eng malware.pdf",
@@ -195,23 +241,10 @@
     "malware/android malware.pdf",
     "malware/malware ppts.pdf",
     "malware/x86_assembly-ReverseEngneering.pdf",
-    "attachments/Pasted image 20251204003037.png",
-    "attachments/Pasted image 20251204002041.png",
-    "attachments/Pasted image 20251204001922.png",
-    "attachments/Pasted image 20251204000223.png",
-    "attachments/Pasted image 20251203235447.png",
-    "attachments/Pasted image 20251203234314.png",
-    "attachments/Pasted image 20251203232732.png",
-    "attachments/Pasted image 20251203232412.png",
-    "attachments/Pasted image 20251203225441.png",
-    "attachments/Pasted image 20251203225324.png",
-    "dist/Chapter 5.md",
     "eco/Unit 1/1.1 Intro to Microeconomics.md",
     "eco/Marginal Costing.md",
     "eco/Features of Indian Economy.md",
     "eco/Unit 2/2.3 Banks.md",
-    "dist/Chapter 6.md",
-    "dist/Chapter 1.md",
     "eco/Unit 2/2.4 Foreign Exchange.md",
     "eco/Unit 2/2.2 Money.md",
     "eco/Unit 1/1.2 Cardinal and Ordinal Utility.md",
@@ -226,9 +259,6 @@
     "ins/ins midterm.pdf",
     "ins/post midsem.md",
     "ins/INS.md",
-    "ins/ssl.pdf",
-    "eco/Unit 1/1.4 Supply.md",
-    "eco/Unit 1/1.3 Demand.md",
-    "dist/Chapter 4.md"
+    "ins/ssl.pdf"
   ]
 }

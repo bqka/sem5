@@ -39,7 +39,7 @@ Example 1
 ![[Pasted image 20250919234324.png]]
 ![[Pasted image 20250919234216.png]]
 
-# Decentralized Architectures
+## Decentralized Architectures
 
 ![[Pasted image 20250919234959.png]]
 
@@ -114,4 +114,3 @@ What interceptors actually offer is a means to adapt the middleware.
 Interceptors are part of a broader push to make middleware adaptive. While separation of concerns, reflection, and component-based design provide tools, none are yet fully effective for handling the complexity of large-scale distributed systems.
 
 ![[Pasted image 20250920014030.png]]
-

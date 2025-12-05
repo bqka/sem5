@@ -226,7 +226,7 @@ Most of the failure models discussed previously apply equally well to communicat
 
 ![[Pasted image 20251203222606.png]]
 
-### RPC Semantics in the Presence of Failures
+## RPC Semantics in the Presence of Failures
 
 ![[Pasted image 20251203222719.png]]
 

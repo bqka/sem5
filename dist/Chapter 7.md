@@ -36,7 +36,7 @@ A **consistency model** defines the agreement between processes and the data sto
 
 Models that strongly restrict possible read values (i.e., are strict and easy for developers) usually perform poorly. Models with fewer restrictions perform better but are harder to reason about. The trade-off between usability and performance is unavoidable.
 
-### Continuous Consistency
+## Continuous Consistency
 
 There is no universally best way to replicate data because strong consistency is expensive and loosening consistency depends heavily on the needs of specific applications. Yu and Vahdat propose describing acceptable inconsistencies along **three independent dimensions**, forming _continuous consistency ranges_:
 
@@ -72,7 +72,7 @@ These dimensions help applications specify the types and degrees of inconsistenc
 
 A large body of work on data-centric consistency focuses on how to order operations on shared, replicated data. These models come from concurrent programming, where multiple processes access shared resources at the same time. When updates must be committed across replicas, these models specify how replicas agree on a **consistent global ordering** of those updates.
 
-#### Sequential Consistency
+### Sequential Consistency
 
 - A system is sequentially consistent if:
     - The combined execution of all read and write operations is equivalent to _some_ single sequential order.
@@ -84,7 +84,7 @@ A large body of work on data-centric consistency focuses on how to order operati
 ![[Pasted image 20251202225310.png]]
 ![[Pasted image 20251202225322.png]]
 
-#### Casual Consistency
+### Casual Consistency
 
 **Causal consistency** is a weaker consistency model than sequential consistency. Its key idea is to distinguish between:
 - **Causally related events** – where one operation may influence another  
@@ -92,7 +92,7 @@ A large body of work on data-centric consistency focuses on how to order operati
 - **Concurrent events** – operations that occur independently and cannot affect each other  
     (e.g., two processes independently writing different data items at the same time)
 
-#### **Rule of Causal Consistency**
+##### **Rule of Causal Consistency**
 
 A data store is causally consistent if:
 - **All processes must see causally related writes in the same order.**
@@ -102,13 +102,13 @@ This makes causal consistency weaker (more flexible) than sequential consistency
 
 ![[Pasted image 20251202225904.png|500]]
 
-#### **Examples**
+##### **Examples**
 - If two writes are concurrent (no causal relationship), different replicas may see them in different orders — allowed under causal consistency.
 - If one write depends on another (e.g., a read influences a later write), all processes must observe them in the same order. If not, it violates causal consistency.
 
 ![[Pasted image 20251202230009.png]]
 
-#### **Implementation**
+##### **Implementation**
 Implementing causal consistency requires tracking which operations depend on others. This is usually done using **vector timestamps**, which record what each process has seen.
 
 #### Grouping Operations
