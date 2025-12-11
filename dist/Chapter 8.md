@@ -1,3 +1,171 @@
+# Index
+
+## Introduction to Fault Tolerance
+### Basic Concepts
+- Dependability: availability, reliability, safety, maintainability  
+- Security sometimes included  
+- Failure → caused by error → caused by fault  
+- Fault types: transient, intermittent, permanent  
+
+### Failure Models
+- Crash failures (fail-stop)  
+- Omission failures: receive omission, send omission  
+- Timing failures  
+- Response failures: value + state-transition  
+- Arbitrary (Byzantine) failures  
+- Fail-silent, fail-stop, fail-safe distinctions  
+
+### Failure Masking by Redundancy
+- Information redundancy (ECC, Hamming)  
+- Time redundancy (retrying operations)  
+- Physical redundancy (replicated components)  
+- Triple Modular Redundancy  
+
+---
+
+## Process Resilience
+### Design Issues
+- Process groups provide fault tolerance  
+- Groups are dynamic; a process may belong to many groups  
+
+### Flat vs Hierarchical Groups
+- Flat groups: symmetric, no single point of failure  
+- Hierarchical groups: coordinator-based, easier coordination  
+
+### Group Membership
+- Central group server vs distributed membership  
+- Handling joins/leaves, detecting crashes  
+- Joins/leaves treated as special messages  
+- Group recovery when too many processes fail  
+
+### Failure Masking and Replication
+- Primary-based replication (primary-backup)  
+- Replicated-write protocols (active replication, quorums)  
+- k-fault tolerance:  
+  - Fail-silent → k+1 replicas  
+  - Byzantine → 2k+1 replicas  
+
+### Agreement in Faulty Systems
+- Consensus needed for elections, commits, coordination  
+- System assumptions: synchronous/asynchronous, ordered/unordered, bounded delays, unicast/multicast  
+- Byzantine agreement (Lamport): exchange values + vectors → majority selection  
+- Requirements: 3k+1 processes to tolerate k Byzantine failures  
+- FLP impossibility: consensus impossible in fully asynchronous systems with 1+ failures  
+- BAR model: Byzantine, Altruistic, Rational behavior  
+
+### Failure Detection
+- Active (ping) and passive detection  
+- Issues: false positives, network delays  
+- Improved methods: gossiping, cross-checking, forwarding alive messages  
+- Failure notification (e.g., FUSE cascading detection)  
+
+---
+
+## Reliable Client–Server Communication
+### Point-to-Point Communication
+- Handling crash, omission, arbitrary failures  
+
+### RPC Semantics in Failure Scenarios
+#### Client Cannot Locate Server
+- Binder fails → exceptions break transparency  
+
+#### Lost Request Messages
+- Retransmissions; use of request identifiers  
+
+#### Server Crashes
+- At-least-once semantics  
+- At-most-once semantics  
+- No guarantees  
+- Exactly-once impossible  
+- Acknowledgment timing issues  
+- Four retry strategies after server crash  
+- Sequence-number solution to prevent duplicate execution  
+
+#### Lost Reply Messages
+- Idempotent vs non-idempotent operations  
+- Sequence-number replay suppression  
+- Server must retain history  
+
+#### Client Crashes (Orphans)
+- Orphan extermination (logging + killing)  
+- Reincarnation (epoch-based)  
+- Gentle reincarnation  
+- Expiration (timeouts)  
+
+---
+
+## Reliable Group Communication
+### Basic Reliable Multicasting
+- Sequence numbers + history buffer  
+- ACK/NACK strategies  
+- Works only for small, stable groups  
+
+### Scalability in Reliable Multicasting
+- Feedback implosion problem  
+- Reliance on NACKs → sender must retain history indefinitely  
+
+### Nonhierarchical Feedback Control (SRM)
+- NACK suppression via randomized timers  
+- Multicast NACKs  
+- Issues: timer tuning, unnecessary NACKs to successful receivers  
+- Local recovery to reduce sender load  
+
+### Hierarchical Feedback Control
+- Subgroup tree structure  
+- Local coordinators handle retransmissions  
+- Coordinators maintain history buffers  
+- Tree construction challenges  
+- Application-level multicasting  
+
+---
+
+## Distributed Commit
+### Overview
+- Ensures all-or-nothing behavior across multiple sites  
+- Implemented via coordinator + participants  
+- 1-Phase Commit insufficient → 2PC/3PC  
+
+### Two-Phase Commit (2PC)
+#### Phase 1: Voting
+- Coordinator → VOTE_REQUEST  
+- Participants → VOTE_COMMIT / VOTE_ABORT  
+
+#### Phase 2: Decision
+- GLOBAL_COMMIT or GLOBAL_ABORT  
+
+#### Failures and Blocking
+- Participants block in READY  
+- Coordinator failures cause indefinite blocking  
+- Termination protocol using DECISION_REQUEST  
+
+#### Recovery
+- Coordinator logs WAIT + final decision  
+- Participants log votes + decisions  
+- READY state requires querying peers  
+
+#### Blocking Problem
+- All participants in READY + coordinator crash → cannot decide  
+- 2PC is a blocking protocol  
+
+### Avoiding Blocking
+- Reliable multicast with rebroadcasting  
+- Three-phase commit (3PC)  
+
+### Three-Phase Commit (3PC)
+- Nonblocking under fail-stop assumptions  
+- Adds PREPARE_COMMIT phase  
+- Removes states where commit/abort are both possible  
+- Coordinator timeout logic → commit  
+- Participant timeout logic → infer decision from peers  
+- Majority-based reasoning in READY/PRECOMMIT  
+
+---
+
+## Recovery
+(Section heading present, but no detailed content provided in your message.)
+
+
+
 A key characteristic of distributed systems is **partial failure**, where one component can fail while others continue functioning normally. Unlike single-machine systems—where a failure often stops the entire system—distributed systems must handle these isolated faults gracefully. A major design goal is **fault tolerance**: ensuring the system continues operating acceptably even when some components fail, and is able to recover automatically while repairs are made.
 
 # Introduction to Fault Tolerance
@@ -103,6 +271,7 @@ Together, these redundancy mechanisms help mask faults and keep the system funct
 
 ![[Pasted image 20251203204843.png]]
 
+Triple Modular Redundancy
 # Process Resilience
 
 ## Design Issues

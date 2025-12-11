@@ -1,3 +1,111 @@
+# Index
+
+## Threads
+### Threads in Non-Distributed Environments
+- Thread packages: user-level threads, kernel-level threads  
+- User-level thread creation cost dominated by stack allocation  
+- Context switching differences among user threads, kernel threads, LWPs  
+
+### Light Weight Processes (LWPs)
+- Hybrid between user-level and kernel-level threads  
+- Kernel schedules LWPs; user threads mapped to LWPs  
+- Improved concurrency and parallelism  
+
+### Threads in Distributed Systems
+#### Multithreaded Clients
+- Multiple outstanding requests  
+- Improved responsiveness  
+- Parallel interactions with servers  
+
+#### Multithreaded Servers
+- Server handles multiple client requests concurrently  
+- Thread pool strategy  
+- Per-request threads  
+- Improves scalability and throughput  
+
+---
+
+## Virtualization
+### Basics of Virtualization
+- Abstracts hardware into virtual machines  
+- Multiple OS instances on a single physical machine  
+- Efficient resource utilization  
+
+### Virtual Machine Monitors (VMM) / Hypervisors
+- Type 1: bare metal  
+- Type 2: hosted  
+- Guest OS isolation and control  
+
+### Virtualization in Distributed Systems
+- VM migration  
+- Resource isolation and dynamic allocation  
+- Cloud computing foundations  
+
+---
+
+## Clients
+### Networked User Interfaces
+- Remote display protocols  
+- Client-server UI distribution  
+- Thin vs thick clients  
+
+### Client-Side Software for Distribution Transparency
+- Stubs  
+- Proxies  
+- Caching mechanisms  
+- Handling failures and reconnections  
+
+---
+
+## Servers
+### General Design Issues
+- Iterative vs concurrent servers  
+- Stateless vs stateful servers  
+- Multithreaded server models  
+- Daemons: background, autonomous service processes  
+
+### Server Clusters
+- Load balancing  
+- Failover mechanisms  
+- Parallel service execution  
+- Front-end + back-end server architecture  
+
+### Distributed Servers
+- Replication across multiple servers  
+- Consistency management  
+- Request routing to nearest/least-loaded replica  
+
+---
+
+## Code Migration
+### Definition
+- Moving code between machines to continue execution elsewhere  
+- Benefits: load balancing, reduce data transfer, increase flexibility  
+
+### Reasons for Code Migration
+- Performance improvements  
+- Locality enhancements  
+- Flexibility in execution environment  
+
+### Methods for Code Migration
+- Weak vs strong mobility  
+- Moving code only  
+- Moving code + execution state  
+- Capturing stack and heap for migration  
+
+### Migration and Local Resources
+- Binding to external resources  
+- Resource classification:  
+  - Fixed resources (cannot move)  
+  - Fastened resources (can move with difficulty)  
+  - Unattached resources (easy to move)  
+- Resource re-binding strategies  
+
+### Migration in Heterogeneous Systems
+- Differences in instruction sets, OS, architectures  
+- Use of interpreted languages (e.g., Java bytecode)  
+- Portable execution formats  
+
 # Threads
 
 ![[Pasted image 20250920180817.png]]

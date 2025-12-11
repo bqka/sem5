@@ -1,3 +1,183 @@
+# Index
+
+## Introduction
+### Reasons for Replication
+- Reliability: redundant copies protect against failures and corruption  
+- Performance:  
+  - Scale in number of clients  
+  - Reduce latency via geographic replication  
+- Introduces consistency challenges  
+- Example: browser caching and staleness  
+
+### Replication as a Scaling Technique
+- Reduces read latency and server load  
+- Synchronization required to maintain tight consistency → expensive  
+- Relaxed consistency improves scalability  
+- Trade-off: performance vs correctness  
+
+---
+
+## Data-Centric Consistency Models
+### Continuous Consistency
+#### Dimensions of inconsistency
+- Numerical deviation  
+- Staleness deviation  
+- Ordering deviation  
+
+#### Conits (consistency units)
+- Define scope of consistency tracking  
+- Fine vs coarse granularity  
+- Developer APIs: AffectsConit(), DependsOnConit()  
+
+### Consistent Ordering of Operations
+- Sequential consistency  
+- Causal consistency  
+- Global ordering without real-time clocks  
+
+### Sequential Consistency
+- Single global interleaving  
+- Per-process program order preserved  
+- No real-time requirements  
+
+### Causal Consistency
+- Causally related writes must be seen in same order  
+- Concurrent writes may be seen in different orders  
+- Implemented using vector timestamps  
+
+### Grouping Operations
+- ENTER_CS / LEAVE_CS define atomic sections  
+- Synchronization variables (exclusive and non-exclusive ownership)  
+- Acquire, Exclusive, and Nonexclusive rules  
+
+### Entry Consistency
+- Associate data with specific synchronization variables  
+- Explicit or implicit associations  
+
+### Consistency vs Coherency
+- Consistency → set of data items  
+- Coherency → single data item  
+- Coherence example: sequential coherence  
+
+---
+
+## Client-Centric Consistency Models
+### Eventual Consistency
+- If no updates occur, replicas converge  
+- Works well with single-writer systems  
+- Issues arise when clients move between replicas  
+
+### Monotonic Reads
+- A process never reads older data than it has seen before  
+- Important for mobile users  
+
+### Monotonic Writes
+- Writes by the same process occur in program order  
+- Prevents writing on outdated replicas  
+
+### Read-Your-Writes
+- A client always sees results of its own writes  
+- Prevents stale reads after updates  
+
+### Writes-Follow-Reads
+- A process writes only to a version at least as recent as what it read  
+- Ensures logical consistency (e.g., newsgroup replies)  
+
+---
+
+## Replica Management
+### Replica-Server Placement
+- Optimization problem: choose best K of N locations  
+- Client-aware vs client-unaware placement  
+- Geometric clustering (Szymaniak et al.) for fast placement  
+
+### Content Replication and Placement
+#### Permanent Replicas
+- Static, authoritative copies  
+- Mirror sites, distributed databases  
+
+#### Server-Initiated Replicas
+- Created dynamically based on access patterns  
+- Threshold-based algorithms (replicate / migrate / delete)  
+
+#### Client-Initiated Replicas (Caches)
+- Private or shared copies  
+- Useful when reads dominate  
+- Layers of caches  
+- Managed entirely by clients  
+
+### Content Distribution
+#### Update propagation strategies
+- Invalidation (notify outdated)  
+- State transfer (send new data)  
+- Operation transfer (active replication)  
+
+#### Push vs Pull Protocols
+- Push → strong consistency, server tracks clients  
+- Pull → client checks when needed, higher latency  
+- Hybrid leases:  
+  - Age-based  
+  - Renewal-frequency-based  
+  - Server-load-based  
+
+#### Unicasting vs Multicasting
+- Unicast → client requests  
+- Multicast → efficient push updates to many replicas  
+
+---
+
+## Consistency Protocols
+### Continuous Consistency Protocols
+#### Bounding Numerical Deviation
+- Writes have weights  
+- Servers maintain logs TW[i,j]  
+- Each server tracks others’ progress  
+- Forward updates when deviation exceeds per-server bound  
+
+#### Bounding Ordering Deviations
+- Limit length of tentative-write queue  
+- Switch to global ordering when limit exceeded  
+
+### Primary-Based Protocols
+#### Remote Write Protocols (Primary-Backup)
+- Primary orders all writes  
+- Blocking vs nonblocking versions  
+
+#### Local-Write (Migrating Primary) Protocols
+- Primary moves to the writer  
+- Useful for mobile or disconnected operations  
+- Nonblocking propagation to backups  
+
+### Replicated-Write Protocols
+#### Active Replication
+- Each replica executes all operations  
+- Requires totally ordered multicast  
+- Sequencer or hybrid ordering mechanisms  
+
+#### Quorum-Based Protocols
+- Reads: contact Nr replicas  
+- Writes: contact Nw replicas  
+- Must satisfy Nr + Nw > N and Nw > N/2  
+
+---
+
+## Cache-Coherence Protocols
+### Inconsistency Detection
+- Static detection (compile-time)  
+- Dynamic detection (runtime validation):  
+  - Before use  
+  - During execution (optimistic)  
+  - At commit  
+
+### Coherence Enforcement
+- Disallow shared-data caching  
+- Invalidate caches upon writes  
+- Update caches with new values  
+
+### Handling Writes in Caches
+- Read-only caches  
+- Write-through caches (immediate update to server)  
+- Write-back caches (buffered updates, commit later)  
+
 # Introduction
 
 ## Reasons for Replication
@@ -135,6 +315,8 @@ To maintain correctness, three rules must be followed:
 Together, these rules ensure that critical sections behave atomically and that processes always see the correct, up-to-date data when entering them.
 
 ![[Pasted image 20251202233422.png]]
+
+### Entry Consistency
 
 ![[Pasted image 20251202233514.png]]
 

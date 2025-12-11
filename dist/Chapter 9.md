@@ -1,3 +1,255 @@
+# Index
+
+## Introduction
+### Dependability & Security Goals
+- Dependability: availability, reliability, safety, maintainability  
+- Added requirements: confidentiality & integrity  
+- Four threat types:
+  - Interception
+  - Interruption
+  - Modification
+  - Fabrication (incl. replay)
+
+### Security Policy & Mechanisms
+- Security policy defines allowed/prohibited actions  
+- Mechanisms:
+  - Encryption
+  - Authentication
+  - Authorization
+  - Auditing  
+
+---
+
+## Design Issues
+### Focus of Control
+- Protect data directly (integrity constraints)  
+- Control access to operations (method/interface-based)  
+- Control access by user roles (RBAC)  
+
+### Layering of Security Mechanisms
+- Security vs. trust distinction  
+- Security can be applied at:
+  - Network/link layer  
+  - Transport layer (SSL)  
+  - Middleware (secure RPC)  
+  - Application  
+- Higher layers depend on trust in lower layers  
+
+### Distribution of Security Mechanisms
+- Trusted Computing Base (TCB): all components enforcing policy  
+- Goal: minimize TCB size  
+- Using trusted servers & RISSC approach  
+- Microkernel advantage for isolating trusted components  
+
+### Simplicity
+- Keep core mechanisms simple & auditable  
+- Some applications (e.g., digital payments) require complexity  
+- Need simple underlying cryptographic primitives  
+
+---
+
+## Cryptography
+### Attack Types Defended by Encryption
+- Interception  
+- Modification  
+- Fabrication  
+- Note: Encryption alone does not stop interruption  
+
+### Common Cryptographic Tools
+- DES  
+- RSA  
+- MD5  
+
+---
+
+## Secure Channels
+### Requirements
+- Authentication  
+- Message integrity  
+- Confidentiality  
+- Protection against interception / modification / fabrication  
+- Still vulnerable to interruption (DoS)
+
+---
+
+## Authentication
+### Authentication Based on Shared Secret Key
+- Challenge–response mutual authentication  
+- Five-message protocol  
+- Three-message “optimized” version → reflection attack  
+- Lessons: avoid symmetric challenge patterns, verify peer before sending sensitive data  
+
+### Authentication Using a KDC
+- Avoids O(N²) secret keys  
+- Session key generation  
+- Needham–Schroeder shared-key protocol (with nonces)  
+- Replay vulnerabilities & fixes  
+- Improved version binds request to Bob’s nonce  
+
+### Authentication Using Public-Key Cryptography
+- Mutual authentication using encrypted challenges  
+- Session key included in responder’s message  
+- Requires trustworthy distribution of public keys  
+
+---
+
+## Message Integrity & Confidentiality
+### Digital Signatures
+- Prevent message alteration  
+- Prevent repudiation  
+- Signing message digests instead of full messages  
+- Signature verification via public key  
+- Issues: stolen keys, key changes, timestamping  
+
+### Session Keys
+- Reduced long-term key usage  
+- Replay protection  
+- Limits scope of key compromise  
+- Easier trust management  
+
+---
+
+## Secure Group Communication
+### Confidential Group Communication
+- Single shared key → simple but risky  
+- Pairwise keys → secure but O(N²) overhead  
+- Public-key model → scalable  
+
+### Secure Replicated Servers
+- Active replication with signed responses  
+- Client validates results using threshold signatures (c+1)  
+- Servers pre-verify & forward a single validated response  
+- Threshold schemes ensure correctness despite up to c faulty servers  
+
+---
+
+## Access Control
+### General Issues
+- Subjects, objects, operations  
+- Reference monitor enforces access control  
+- Must be tamperproof  
+
+### Access Control Matrix
+- Conceptual model  
+- Implemented via:
+  - Access Control Lists (ACLs)  
+  - Capabilities (unforgeable tokens)  
+
+### Protection Domains
+- Grouping subjects (groups, roles)  
+- Grouping objects (interfaces, subtyping)  
+- Certificate-based membership  
+
+---
+
+## Firewalls
+### Purpose
+- Protect internal network from outside traffic  
+- Acts as perimeter reference monitor  
+
+### Types
+#### Packet-Filtering Gateway
+- Filters based on packet headers  
+- Supports simple blocking rules  
+- Used for egress/ingress security  
+
+#### Application-Level Gateway
+- Inspects actual message content  
+- Mail gateways, Web proxies  
+- Can block dangerous scripts/applications  
+
+---
+
+## Secure Mobile Code
+### Protection Challenges
+- Protecting mobile agents from hostile hosts  
+- Protecting hosts from malicious agents  
+
+### Protecting the Agent (Ajanta Examples)
+- Read-only signed state  
+- Append-only secure logs  
+- Selective encrypted state for designated servers  
+
+### Protecting the Host
+#### Sandbox Model
+- Code executed in restricted environment  
+- Interpreted languages simplify sandboxing  
+
+#### Java Security Model
+- Class loaders (trusted loaders only)  
+- Bytecode verifier  
+- Security manager (runtime checks)  
+
+#### Playground Model
+- Execute mobile code on isolated machine  
+
+#### Authentication-Based Access Control
+- Code signing  
+- Object references as capabilities  
+- Stack introspection  
+- Namespace management via class loaders  
+
+---
+
+## Denial of Service (DoS)
+### Attack Types
+- Bandwidth depletion  
+- Resource depletion (e.g., TCP SYN flood)  
+
+### Defenses
+- Host-based monitoring  
+- Egress filtering  
+- Ingress filtering  
+- ISP-level filtering (traffic ratio heuristics)  
+
+---
+
+## Security Management
+### Key Management
+- Key establishment (Diffie–Hellman)  
+- Key distribution challenges  
+- Public-key certificates & certificate chains  
+
+### Certificate Lifetimes
+- CRLs  
+- Expiration-based lifetimes  
+- Short or near-zero lifetimes (high overhead)  
+- Real-world issue: many clients ignore CRLs  
+
+---
+
+## Secure Group Management
+### Secure Group Membership
+- Group keys: communication key + public/private key pair  
+- Join protocol:
+  - JR (join request) with RP + Kp,G + certificate  
+  - Q authenticates P  
+  - GA (group admittance) includes encrypted CKG & KG⁻  
+  - P confirms via encrypted nonce  
+- Reply pad (RP) avoids long-term compromise issues  
+
+---
+
+## Authorization Management
+### Capabilities & Attribute Certificates
+- Amoeba capability structure (port, object ID, rights, check field)  
+- One-way functions ensure tamperproof rights  
+- Restricted capabilities using rights masks  
+- Attribute certificates generalize capabilities  
+
+### Delegation
+#### Basic Problems
+- Need temporary transfer of rights  
+- Simple solutions insufficient (named/bearer certificates)  
+
+#### Neuman’s Delegation Scheme
+- Proxy = certificate + secret  
+- Certificate signed by delegator  
+- Secret enables challenge-response verification  
+- Supports further delegation without contacting originator  
+- Ensures authenticity + unforgeability  
+
+
 # Introduction
 
 Security in computer systems is closely tied to **dependability**, which means we can justifiably trust a system to deliver its services. Traditionally, dependability includes **availability, reliability, safety, and maintainability**, but for true trustworthiness, **confidentiality** and **integrity** must also be included.

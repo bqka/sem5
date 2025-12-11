@@ -1,3 +1,122 @@
+# Index
+
+## Distributed System Definition
+### Key Characteristics
+- A distributed system is a collection of autonomous computing elements.
+- Users perceive it as a single coherent system.
+
+## Characteristic 1: Collection of Autonomous Computing Elements
+### Overlay Networks
+- Often organized as overlay networks.
+- Structured overlays: tree, ring, deterministic neighbors.
+- Unstructured overlays: random neighbors.
+- Must remain connected for full routing capability.
+- Includes peer-to-peer (P2P) networks.
+
+## Characteristic 2: Single Coherent System
+### Unified Behavior
+- System behaves the same regardless of where/when user interacts.
+- Similar to Unix-like systems using a unified file-system abstraction.
+
+## Middleware and Distributed Systems
+### Middleware Layer
+- Software layer above OS on each machine.
+- Provides communication and coordination between application components.
+- Hides hardware/OS differences.
+
+### Middleware Services
+- Naming
+- Communication
+- Security
+- Transactions
+- Replication
+- Persistence
+- Resource management
+
+## Design Goals
+### Supporting Resource Sharing
+- Share data, peripherals, storage, services.
+- Economic benefits (cheaper shared high-end resources).
+
+### Making Distribution Transparent
+#### Types of Transparency
+- Access transparency
+- Location transparency
+- Relocation transparency
+- Migration transparency
+- Replication transparency
+- Concurrency transparency
+- Failure transparency
+
+#### Degree of Transparency
+- Trade-off between transparency and performance.
+- Full transparency can be expensive or undesirable.
+
+### Being Open
+- Standardized interfaces (IDLs).
+- Syntax and semantics must be well-defined.
+- Ensures interoperability, portability, and extensibility.
+
+### Being Scalable
+#### Limitations
+- Centralized services → bottlenecks.
+- Centralized data → network overload.
+- Centralized algorithms → excessive communication.
+
+#### Decentralized Algorithm Properties
+- No global knowledge
+- No global clock
+- Limited message size
+- Decisions based on local information
+
+### Scalability Dimensions
+- Size scalability
+- Geographical scalability
+- Administrative scalability
+
+### Scaling Techniques
+- Hiding communication latency
+- Distribution
+- Replication
+- Caching
+- Relaxing consistency constraints
+
+---
+
+## Types of Distributed Systems
+### Distributed Computing Systems
+#### Cluster Computing
+- Homogeneous workstations/PCs
+- High-speed LAN
+- Same OS
+
+#### Grid Computing
+- Heterogeneous systems
+- Multiple administrative domains
+- Resource federation
+
+### Distributed Information Systems
+#### Transaction Processing Systems
+- ACID properties
+- Distributed transactions
+- Nested transactions using subtransactions
+
+#### Enterprise Application Integration (EAI)
+- Integrates heterogeneous enterprise applications
+- Middleware-based communication and coordination
+
+### Distributed Pervasive Systems
+#### Examples
+- Smart environments
+- Sensor networks
+- Mobile computing systems
+
+#### Home Spaces
+- Smart home infrastructure
+- Service-based automation
+
+
+
 A distributed system is a collection of autonomous computing elements
 that appears to its users as a single coherent system.
 
@@ -96,7 +215,7 @@ There are many reasons for wanting to share resources. One obvious reason is tha
 
 **Failure transparency** allows a system to mask failures so that users don’t experience disruptions when parts of the system stop working. For instance, if one server in a video streaming service crashes, another replica server can take over so playback continues smoothly. However, distinguishing between a slow server and a failed one remains a hard challenge in practice.
 
- #### **Degree of Distribution Transparency**
+ ##### **Degree of Distribution Transparency**
 
 Although distribution transparency is generally considered preferable for any distributed system, there are situations in which attempting to blindly hide all distribution aspects from users is not a good idea
 

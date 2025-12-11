@@ -1,4 +1,137 @@
-![[Pasted image 20250924032156.png]]
+# Index
+
+## Fundamentals
+### Layered Protocols
+#### Lower-Level Protocols
+- Physical & data-link–level communication  
+- Hardware-dependent protocols  
+
+#### Transport Protocols
+- TCP, UDP, flow control, reliability  
+
+#### Higher-Level Protocols
+- Application-level communication standards (HTTP, FTP, SMTP)
+
+#### Middleware Protocols
+- Provide higher-level abstractions  
+- Enable platform-independent communication  
+
+### Types of Communication
+- Unicast  
+- Multicast  
+- Broadcast  
+- Anycast  
+- Synchronous vs asynchronous  
+- Persistent vs transient communication  
+
+---
+
+## Remote Procedure Call (RPC)
+### Basic RPC Operation
+#### Conventional Procedure Calls
+- Normal local procedure call semantics  
+- Stack frame setup, arguments, return values  
+
+#### Client and Server Stubs
+- Marshaling/unmarshaling  
+- Communication handling hidden from programmer  
+
+### Parameter Passing
+#### Passing Value Parameters
+- Marshaling values into messages  
+
+#### Passing Reference Parameters
+- Must convert references into values or identifiers  
+- Requires indirection  
+
+#### Parameter Specification and Stub Generation
+- IDL (Interface Definition Language)  
+- Automatic stub generation tools  
+
+### Asynchronous RPC
+- One-way RPC  
+- Deferred synchronous RPC  
+
+---
+
+## Message-Oriented Communication
+### Message-Oriented Transient Communication
+#### Berkeley Sockets
+- Low-level send/receive primitives  
+- Stream vs datagram sockets  
+
+#### Message Passing Interface (MPI)
+- High-performance cluster communication  
+- Send/receive, collective operations  
+
+### Message-Oriented Persistent Communication
+#### Message Queuing Model
+- Message queues decouple sender and receiver  
+- Persistent storage of messages  
+
+#### General Architecture of a Message-Queuing System
+- Queue managers  
+- Channels  
+- Routers  
+- Delivery guarantees  
+
+#### Message Brokers
+- Routing, transformation, filtering  
+- Publish/subscribe systems  
+
+---
+
+## Stream-Oriented Communication
+### Support for Continuous Media
+- Time-dependent data (audio, video)  
+- Continuous data flow requirements  
+
+### Data Streams
+- Stream types: continuous, discrete, periodic  
+- Stream segmentation  
+
+### Streams and Quality of Service (QoS)
+- Latency, jitter, bandwidth requirements  
+- QoS negotiation  
+
+#### Enforcing QoS
+- Resource reservation  
+- Admission control  
+- Traffic shaping  
+
+### Stream Synchronization
+#### Synchronization Mechanisms
+- Intra-stream (audio sync)  
+- Inter-stream (audio-video sync)  
+- Event-based and timestamp-based methods  
+
+---
+
+## Multicast Communication
+### Application-Level Multicasting
+- Overlays used when network-level multicast unavailable  
+- Tree-based overlays  
+- Mesh-based overlays  
+
+#### Overlay Construction
+- Tree construction algorithms  
+- Node maintenance  
+- Dealing with churn  
+
+### Gossip-Based Data Dissemination
+#### Information Dissemination Models
+- Push model  
+- Pull model  
+- Push–pull model  
+
+#### Removing Data
+- Anti-entropy  
+- TTL / decay strategies  
+
+#### Applications
+- Replication  
+- Epidemic updates  
+- Failure detection  
 
 # Fundamentals
 

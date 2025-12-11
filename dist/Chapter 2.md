@@ -1,11 +1,99 @@
-A **component** is a modular unit with well-defined required and provided interfaces that is replaceable within its environment
-connector is generally described as a mechanism that mediates communication, coordination, or cooperation among components
-For example, a connector can be formed by the facilities for (remote) procedure calls, message passing, or streaming data.
-![[Pasted image 20250919224844.png]]
+# Index
 
-![[Pasted image 20250919225725.png]]
-![[Pasted image 20250919225241.png]]
-![[Pasted image 20250919225607.png]]
+## Components and Connectors
+### Components
+- Modular units with required/provided interfaces  
+- Replaceable within their environment  
+
+### Connectors
+- Mechanisms mediating communication, coordination, cooperation  
+- Examples:  
+  - Remote Procedure Calls (RPC)  
+  - Message passing  
+  - Data streaming  
+
+## System Architectures
+### Centralized Architectures
+#### Client–Server Model
+- Client requests; server executes  
+- Idempotent vs non-idempotent operations  
+- Handling lost messages  
+
+#### Application Layering
+- Presentation layer  
+- Application logic layer  
+- Data management layer  
+
+#### Multitiered Architectures
+- 2-tier: client ↔ server  
+- 3-tier: client ↔ app server ↔ database  
+- N-tier: multiple middleware/services  
+
+### Decentralized Architectures
+#### Structured P2P Architectures
+##### Chord
+- Ring-based lookup  
+- Consistent hashing  
+
+##### Content Addressable Network (CAN)
+- d-dimensional space partitioning  
+- Zone-based routing  
+
+#### Unstructured P2P Architectures
+- No rigid topology  
+- Search methods:  
+  - Flooding  
+  - Random walks  
+  - Gossip-based search  
+
+#### Topology Management in Overlays
+- Neighbor selection  
+- Maintenance strategies  
+
+#### Superpeers
+- Hybrid centralized/P2P structure  
+- High-capacity nodes act as indexing hubs  
+
+### Hybrid Architectures
+#### Edge Server Systems
+- Push computation/storage closer to users  
+- Lower latency, lower server load  
+
+#### Collaborative Distributed Systems
+##### BitTorrent
+- File split into chunks  
+- Download from multiple peers  
+- Seeders vs leechers  
+
+##### Globule
+- Cooperative web-server replication  
+- Edge server–based content distribution  
+
+## Architectures vs Middleware
+### Adaptable Middleware
+- Middleware must be configurable/customizable  
+- Separation of policies and mechanisms  
+
+## Interceptors
+### Purpose
+- Break normal control flow to insert behavior  
+
+### Functionality
+- Applied at client and server request paths  
+- Used for logging, replication, optimization  
+
+## Approaches to Adaptive Software
+### Separation of Concerns
+- Isolate system functionality  
+
+### Reflection
+- System can examine/modify behavior at runtime  
+
+### Component-Based Design
+- Reusable, replaceable modules  
+
+### Adaptive Middleware Techniques
+- Dynamically adjust system behavior  
 
 # System Architectures
 
